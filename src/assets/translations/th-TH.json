@@ -1,0 +1,840 @@
+{
+  "lang": {
+    "language": "ภาษา",
+    "zh-TW":"繁体",
+    "zh-CN":"简体",
+    "en-US":"English",
+    "th-TH":"ไทย",
+    "id-ID":"Indonesia",
+    "vi-VN":"Tiếng Việt"
+  },
+  "error": {
+    "ERR101": "ข้อมูลประจำตัวไม่ถูกต้อง",
+    "ERR201": "ไม่พบผู้เล่น",
+    "ERR202": "ผู้เล่นถูกแบน",
+    "ERR401": "โปรดตรวจสอบข้อมูลของคุณ"
+  },
+  "panel": {
+    "im": "IM",
+    "cs": "แชทสด",
+    "imLong": "ข้อความโต้ตอบแบบทันที",
+    "liveChatWelcome": "[แชทสด] ยินดีต้อนรับคุณ!",
+    "liveChatDescription": "โปรดเลือกประเภทคำถามเพื่อเร่งบริการ!",
+    "liveChatOptionFund": "กองทุน",
+    "liveChatOptionBall": "กีฬา",
+    "liveChatOptionLive": "คาสิโนสด",
+    "liveChatOptionLottery": "หวย",
+    "liveChatOptionRegister": "ลงทะเบียน",
+    "liveChatOptionSlot": "เกมสล็อต"
+  },
+
+  "common": {
+    "title": "{brand}-แพลตฟอร์มความบันเทิงระดับมืออาชีพ",
+    "register": "ลงทะเบียน",
+    "login": "เข้าสู่ระบบ",
+    "submit": "ส่ง",
+    "confirm": "ยืนยัน",
+    "back": "กลับ",
+    "check": "ตรวจสอบเลย",
+    "nextStep": "ขั้นตอนต่อไป",
+    "more": "ดูเพิ่มเติม",
+    "send": "ส่ง",
+    "choose": "เลือก",
+    "complete": "สมบูรณ์",
+    "close": "ปิด",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "search": "ค้นหา",
+    "verified": "ยืนยันแล้ว",
+    "configured": "ยืนยันแล้ว",
+    "phoneNumber": "หมายเลขโทรศัพท์",
+    "btnTokenLabel": "รับรหัสยืนยัน",
+    "token": "รหัสยืนยัน",
+    "btnTokenResendLabel": "ส่งอีกครั้ง",
+    "msgInvalidInvitationCode": "รหัสเชิญไม่ถูกต้อง",
+    "msgSendToken": "ส่งรหัสยืนยัน",
+    "msgTokenSent": "ส่งรหัสยืนยันเรียบร้อยแล้ว",
+    "msgTokenVerified": "ยืนยันสำเร็จ",
+    "msgEnterPhone": "กรุณากรอกหมายเลขโทรศัพท์มือถือของคุณ",
+    "msgEnterEmail": "กรุณากรอกที่อยู่อีเมลของคุณ",
+    "msgInvalidEmail": "ที่อยู่อีเมลไม่ถูกต้อง",
+    "msgEnterCode": "กรุณากรอกรหัสยืนยัน",
+    "msgInvalidPhoneCode": "รหัสยืนยันผิดพลาด",
+    "msgEnterEmailCode": "กรุณากรอกรหัสยืนยันอีเมล",
+    "msgEnterPhoneCode": "กรุณากรอกรหัสยืนยันโทรศัพท์",
+    "msgInvalidConfirmPass": "รหัสผ่านทั้งสองต้องเหมือนกัน",
+    "msgInvalidOldPass": "รหัสผ่านเก่าไม่ถูกต้อง",
+    "msgRegisterUserNameInvalid": "ความยาวบัญชีต้องอยู่ระหว่าง 6 ถึง 32 หลัก และต้องประกอบด้วยตัวเลข ตัวอักษร หรือชุดค่าผสม",
+    "msgRegisterPassInvalid": "รหัสผ่านต้องมีความยาวระหว่าง 6 ถึง 20 หลัก",
+    "msgRegisterPassMatchInvalid": "รหัสผ่านต้องเหมือนกับรหัสผ่านที่ยืนยันแล้ว",
+    "msgRegisterTermAndCondition": "โปรดยืนยันว่าคุณได้อ่านข้อกำหนดและเงื่อนไขของเราแล้ว",
+    "msgRegisterWithdrawalPassInvalid": "รหัสผ่านการถอนควรเป็น 6 หลัก",
+    "msgRegisterWithdrawalPassMatchInvalid": "รหัสผ่านการถอนต้องเหมือนกับรหัสผ่านการถอนที่ยืนยันแล้ว",
+    "msgAlreadyExist": "มีชื่อผู้ใช้นี้แล้ว",
+    "emailAddress": "ที่อยู่อีเมล",
+    "qqNumber": "บัญชี QQ",
+    "wechatNumber": "บัญชี Wechat",
+    "receiverAddress": "ที่อยู่สำหรับรับ",
+    "loginPassword": "เข้าสู่ระบบรหัสผ่าน",
+    "contact": "ติดต่อ",
+    "customerService": "บริการลูกค้าออนไลน์",
+    "withdrawalPassword": "รหัสถอนเงิน",
+    "securityQuestion": "คำถามเพื่อความปลอดภัย",
+    "realName": "ชื่อจริง",
+    "teamVP": "Virtus.pro",
+    "teamFrankfurt": "บุนเดสลีกาแฟรงค์เฟิร์ต",
+    "g2Esport": "G2 อีสปอร์ต",
+    "amount": "จำนวนเงิน",
+    "support": "หากคุณมีคำถามใด ๆ โปรดทันที",
+    "contactus": "ติดต่อเรา",
+    "comingSoon": "ตั้งหน้าตั้งตารอ",
+    "sports": "กีฬา",
+    "esports": "อีสปอร์ต",
+    "live": "คาสิโน",
+    "lottery": "ล็อตเตอร",
+    "chess": "โปกเกอร",
+    "slot": "สล็อต",
+    "electron": "อีสปอรต",
+    "fish": "ตกปลา",
+    "promotion": "โปรโมชั่น",
+    "download": "ดาวน์โหลด",
+    "home": "บ้าน",
+    "member": "สมาชิก",
+    "csPhoneNumber": "000-000-0000",
+    "bank": "ธนาคาร",
+    "dollor": "元",
+    "copy": "คัดลอก",
+    "reload": "โหลดซ้ำ",
+    "msgPopupBlocker": "ป็อปอัพอัตโนมัติถูกบล็อก โปรดเปิดด้วยตนเอง",
+    "username": "ชื่อผู้ใช้",
+    "password": "รหัสผ่าน",
+    "msgEnterUsername": "กรุณากรอกชื่อผู้ใช้ของคุณ",
+    "msgEnterPassword": "กรุณากรอกรหัสผ่าน",
+    "deposit": "ฝาก",
+    "withdrawal": "ถอนเงิน",
+    "transfer": "โอน",
+    "info": "เตือนความจำ",
+    "update": "แก้ไข",
+    "reset": "รีเซ็ต",
+    "msgEnterNewPass": "กรุณากรอกรหัสผ่านใหม่",
+    "NewPass": "รหัสผ่านใหม่",
+    "msgEnterOldPass": "กรุณาป้อนรหัสผ่านเก่า",
+    "oldPass": "รหัสผ่านเก่า",
+    "msgEnterConfirmPass": "กรุณากรอกรหัสผ่านใหม่อีกครั้ง",
+    "ConfirmPass": "ยืนยันรหัสผ่านใหม่",
+    "language": "ภาษา",
+    "startGame": "สัมผัสประสบการณ์ตอนนี้",
+    "cs": "ติดตอเจาหนาท",
+    "msgSuccessUpdateProfile": "การปรับเปลี่ยนสำเร็จ",
+    "joinGame": "สัมผัสประสบการณ์ตอนนี้",
+    "withdrawalBankType": "หมวดหมู่",
+    "withdrawalChannel": "ช่อง",
+    "withdrawalNumber": "หมายเลขบัตรธนาคาร/ที่อยู่สกุลเงินที่เข้ารหัส",
+    "msgEnterWithdrawalNumber": "โปรดป้อนหมายเลขบัตรธนาคาร/ที่อยู่สกุลเงินที่เข้ารหัส",
+    "msgEmailExist": "ที่อยู่อีเมลมีอยู่แล้ว",
+    "msgRequiredTurnover": "การหมุนเวียนการเดิมพันของคุณไม่เพียงพอสำหรับการถอนเงิน หากคุณมีคำถามใดๆ โปรดติดต่อฝ่ายบริการลูกค้า",
+    "msgInvalidUsername": "บัญชีหรือรหัสผ่านไม่ถูกต้อง",
+    "msgInvalidWithdrawalPassword": "การถอนรหัสผ่านไม่ถูกต้อง",
+    "msgRequestFailed": "คำขอล้มเหลว โปรดติดต่อฝ่ายบริการลูกค้า"
+  },
+  "affiliate": {
+    "title": "โปรโมชั่นสร้างรายได้",
+    "details": "รายละเอียดโปรโมชั่น",
+    "downline": "สมาชิกของฉัน",
+    "report": "บิลประสิทธิภาพ",
+    "info": "คำแนะนำในการคืนเงิน",
+    "qrCode": "รหัส QR ส่งเสริมการขาย",
+    "promoId": "รหัสโปรโมชันของฉัน",
+    "promoLink": "ลิงก์โปรโมชัน",
+    "memberName": "ชื่อผู้ใช้",
+    "UUID": "UUID",
+    "dateTime": "เวลา",
+    "transAmount": "จำนวนธุรกรรม",
+    "commission": "ค่าคอมมิชชั่น",
+    "status": "สถานะ",
+    "copied": "คัดลอก"
+  },
+  "card": {
+    "title": "จัดการบัตรธนาคาร",
+    "myCard": "บัตรธนาคารของฉัน",
+    "tail": "เลขท้าย",
+    "transferRecord": "บันทึกการโอน",
+    "removeCard": "ถอดการ์ด",
+    "checkDetails": "ตรวจสอบ",
+    "remove": "ลบ",
+    "msgSlideToDelete": "เลื่อนเพื่อลบบัตรธนาคาร",
+    "msgAddCard": "เพิ่มบัตรธนาคาร",
+    "msgAddCardDesc": "หลังจากเพิ่มบัตรธนาคารแล้ว คุณสามารถโอนออกและถอนเงินได้สูงสุด 3 ใบ",
+    "addCard": {
+      "title": "เพิ่มบัตรธนาคาร",
+      "subTitle": "หมายเลขบัตรธนาคารต้องเป็น 15-19 หลัก",
+      "msgSelectBank": "กรุณาป้อนธนาคาร",
+      "msgEnterCard": "กรุณากรอกหมายเลขบัตรธนาคาร",
+      "BankName": "ชื่อธนาคาร",
+      "msgEnterBankName": "กรุณากรอกชื่อธนาคาร",
+      "BankAccountName": "ชื่อบัญชีธนาคาร",
+      "msgEnterBankAccountName": "กรุณากรอกชื่อบัญชีธนาคาร",
+      "cardHolder": "ผู้ถือบัตร",
+      "msgEnterCardHolder": "กรุณากรอกชื่อผู้ถือบัตร",
+      "cardNum": "หมายเลขบัตรธนาคาร",
+      "desc": "ข้อมูลได้รับการเข้ารหัสและยืนยันโดยธนาคารเท่านั้น",
+      "branch": "สาขา",
+      "branchPlaceHolder": "กรุณาป้อนสาขาของธนาคาร"
+    },
+    "success": {
+      "title": "เพิ่มบัตรธนาคารเรียบร้อยแล้ว",
+      "successDesc": "ยินดีด้วย คุณได้ทำการผูกบัตรธนาคารเรียบร้อยแล้ว คุณสามารถเลือกบัตรธนาคารของคุณได้อย่างรวดเร็วเมื่อคุณถอนเงินในภายหลัง หากคุณต้องการผูกบัตรธนาคารอื่นๆ",
+      "bindDesc": "โปรดคลิก 'ผูกบัตรธนาคารอื่น' ด้านล่างเพื่อดำเนินการอีกครั้ง",
+      "reminder": "เตือนความจำอย่างใกล้ชิด",
+      "callHotline": "หรือโทร 000-000-0000 เพื่อขอความช่วยเหลือ",
+      "bindBankCard": "ผูกบัตรธนาคารอื่น",
+      "goWithdrawal": "ไปที่การถอนเงิน"
+    }
+  },
+  "deposit": {
+    "title": "เงินฝาก",
+    "plsEnterDepositAmount": "กรุณากรอกจำนวนเงินฝาก",
+    "msgMinDeposit": "ควรเติมเงินอย่างน้อย {{amount}} หรือมากกว่า",
+    "msgMaxDeposit": "จำนวนเงินฝากมากกว่าขีดจำกัดสูงสุดที่บริษัทกำหนด",
+    "msgMaintenance": "ระบบฝากเงินอยู่ระหว่างการบำรุงรักษา กรุณาลองใหม่อีกครั้งในภายหลัง...",
+    "paymentTunnel": "ช่องทางการชำระเงิน",
+    "msgEnterCard": "กรุณาใส่บัตรธนาคาร",
+    "bankCard": "บัตรธนาคาร",
+    "msgPleaseEnter": "กรุณาป้อน",
+    "dollor": "元",
+    "depositAmount": "จำนวนเงินฝาก",
+    "chooseAmount": "กรุณาเลือกจำนวนเงิน",
+    "limitDeposit": "ขีดจำกัดเดียว",
+    "reminderTitle": "เตือนความจำ:",
+    "orderNumber": "หมายเลขคำสั่งซื้อ",
+    "completeDeposit": "ชำระเงินเรียบร้อยแล้ว",
+    "confirmRedirect": "คุณจะกระโดดออกจากไซต์นี้และไปที่แพลตฟอร์มการชำระเงิน",
+    "depositMethod": "วิธีการชำระเงิน",
+    "depositTunnel": "ช่องทางการชำระเงิน",
+    "promotion": "โปรโมชั่น",
+    "msgPlsSelectPromotion": "กรุณาเลือกโปรโมชั่น",
+    "senderName": "ชื่อบัญชีโอนเงิน",
+    "uploadSuccess": "การอัปโหลดข้อมูลรับรองสำเร็จ โปรดรอการยืนยัน",
+    "cancelDeposit": "การฝากเงินถูกยกเลิกสำเร็จ",
+    "uploadReceipt": "อัปโหลดข้อมูลประจำตัว",
+    "msgPlsSelectFile": "กรุณาเลือกไฟล์อัพโหลด",
+    "upload": "อัปโหลด",
+    "cancel": "ยกเลิกการชำระเงิน",
+    "qrDesc": "สแกนบนโทรศัพท์มือถือของคุณเพื่อชำระเงินอย่างง่ายดาย",
+    "receiverBank": "รับชื่อธนาคาร",
+    "receiverAccount": "การรับบัญชีธนาคาร",
+    "receiverNumber": "รับหมายเลขบัญชีธนาคาร",
+    "msgDialog": "หน้าต่างป็อปอัพอัตโนมัติถูกบล็อก โปรดเปิดด้วยตนเอง",
+    "msgPlsSelectPayment": "กรุณาเลือกวิธีการชำระเงิน",
+    "msgPlsSelectMethod": "กรุณาเลือกช่องทางการชำระเงิน",
+    "msgPlsEnterAccount": "โปรดป้อนชื่อบัญชีธนาคาร",
+    "msgInvalidFileSize": "ไฟล์มีขนาดใหญ่เกินไป โปรดเลือกไฟล์ที่เล็กกว่า 2mb",
+    "msgInvalidFileType": "กรุณาอัปโหลดเฉพาะไฟล์ภาพ (.jpg/.jpeg/.png/.tiff)",
+    "msgFailedJoinPromotion": "คุณไม่สามารถเข้าร่วมกิจกรรมนี้ได้ หากคุณมีคำถามใดๆ โปรดติดต่อฝ่ายบริการลูกค้า",
+    "exchangeRate": "อัตราแลกเปลี่ยน",
+    "buyPrice": "ซื้อ",
+    "sellPrice": "ขาย",
+    "expectedPayment": "จํานวนเงินที่ไดรับ",
+    "details": {
+      "bank": "ธนาคาร",
+      "account": "บัญชี",
+      "accountNum": "บัญชี",
+      "failedOrder": "คำสั่งซื้อของคุณหมดอายุแล้ว",
+      "failedOrderDesc": "โปรดสร้างคำสั่งซื้อใหม่ก่อนทำการฝากเงิน",
+      "msgDepositValidDate": "วันที่มีผลบังคับของคำสั่งนี้",
+      "hour": "ชั่วโมง",
+      "minute": "分",
+      "second": "ที่สอง",
+      "cancelOrder": "ยกเลิกคำสั่งซื้อ",
+      "orderVerify": "การยืนยันการมาถึง"
+    }
+  },
+  "forgotPassword": {
+    "title": "ลืมรหัสผ่าน",
+    "plsEnterPhoneNumber": "โปรดป้อนหมายเลขโทรศัพท์มือถือที่ผูกไว้",
+    "invalidConfirmPass": "รหัสผ่านยืนยันไม่ถูกต้อง",
+    "updateSuccess": "รีเซ็ตรหัสผ่านสำเร็จ"
+  },
+  "inbox": {
+    "title": "ศูนย์ข้อความ",
+    "manage": "แก้ไข",
+    "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว",
+    "dateTime": "เวลา",
+    "type": "ประเภทการประกาศ",
+    "inboxTitle": "ชื่อจดหมาย",
+    "details": "รายละเอียด"
+  },
+  "wap": {
+    "login": {
+      "browse": "ไปเดินเล่น",
+      "rememberMe": "จำชื่อผู้ใช้",
+      "forgetPass": "ลืมรหัสผ่าน?"
+    },
+    "register": {
+      "username": "กรุณากรอกชื่อผู้ใช้ของคุณ (8-16 หลักเป็นภาษาอังกฤษหรือตัวเลข)",
+      "password": "กรุณาใส่รหัสผ่าน (6-20 ตัวพิมพ์ใหญ่และตัวพิมพ์เล็กภาษาอังกฤษ ตัวเลข หรือสัญลักษณ์พิเศษ)",
+      "confirmPassword": "รหัสผ่านซ้ำ",
+      "withdrawalPassword": "กรุณากรอกรหัสผ่านการถอน (6 หลัก)",
+      "confirmWithdrawalPassword": "ทำซ้ำรหัสผ่านการถอน",
+      "promoteCode": "รหัสเชิญ (ไม่บังคับ)"
+    },
+    "main": {
+      "homePage": "โฮมเพจ",
+      "promo": "โปรโมชั่น",
+      "cs": "ติดตอเจาหนาท",
+      "my": "ของฉัน",
+      "account": {
+        "mainAccount": "ยอดคงเหลือในกระเป๋าเงินกลาง:",
+        "totalFund": "ยอดเงินคงเหลือ",
+        "accountReport": "รายละเอียดบัญชี",
+        "betReport": "บันทึกการเดิมพัน",
+        "transferReport": "บันทึกการโอน",
+        "personalInfo": "ข้อมูลส่วนบุคคล",
+        "manageBank": "จัดการบัตรธนาคาร",
+        "inbox": "แจ้งเตือนข้อความ",
+        "affiliate": "โปรโมชั่นสร้างรายได้",
+        "question": "คำถามทั่วไป",
+        "appDownload": "ดาวน์โหลดแอป",
+        "setting": "ตั้งค่า",
+        "signout": "ออกจากระบบ"
+      },
+      "home": {
+        "gameTab": {
+          "sports": "กีฬา",
+          "esports": "อีสปอร์ต",
+          "live": "ตัวจริง",
+          "lottery": "ลอตเตอรี",
+          "chess": "หมากรุกและไพ่",
+          "electron": "อิเล็กตรอน",
+          "slot": "เสือ",
+          "fish": "ตกปลา"
+        },
+        "profile": {
+          "announcement": "ประกาศ",
+          "welcomeBack": "ยินดีตอนรับ",
+          "pleaseLogin": "สวัสดีผู้ใช้ที่รัก กรุณาเข้าสู่ระบบก่อน...",
+          "profile": "ข้อมูลส่วนตัว",
+          "mainAccount": "ยอดเงินคงเหลือ",
+          "loginRegister": "เข้าสู่ระบบ/ลงทะเบียน"
+        }
+      },
+      "bottomNavigation": {
+        "homePage": "โฮมเพจ",
+        "promo": "โปรโมชั่น",
+        "customerService": "บริการลูกค้า",
+        "profile": "ของฉัน"
+      },
+      "menuDrawer": {
+        "deposit": "ฝาก",
+        "withdrawal": "ถอนเงิน",
+        "transfer": "โอน",
+        "transReport": "บันทึกการทำธุรกรรม",
+        "betReport": "รายละเอียดบัญชี",
+        "withdrawalReport": "รายงานการฝากเงิน",
+        "depositReport": "บันทึกการฝากเงิน",
+        "bankCard": "จัดการบัตรธนาคาร",
+        "inbox": "ศูนย์ข้อความ"
+      }
+    }
+  },
+
+  "profile": {
+    "setted": "ตั้งค่าเรียบร้อยแล้ว",
+    "setNow": "ตั้งค่าเลย",
+    "edit": "แก้ไข",
+    "notSet": "ไม่ได้ตั้งค่า",
+    "notVerify": "ไม่ได้รับการยืนยัน",
+    "nowVerify": "ยืนยันเลย",
+    "title": "ข้อมูลส่วนบุคคล",
+    "basicInfo": "ข้อมูลพื้นฐาน",
+    "otherInfo": "ข้อมูลอื่นๆ",
+    "securityInfo": "ศูนย์รักษาความปลอดภัย",
+    "accInfo": "ข้อมูลบัญชี",
+    "details": "ดู",
+    "phoneVerification": "การยืนยันทางโทรศัพท์",
+    "emailVerification": "การยืนยันอีเมล",
+    "msgPlsBindEmailAddress": "กรุณาผูกที่อยู่อีเมล",
+    "changePassword": {
+      "msgConfirmPassFail": "ยืนยันรหัสผ่านผิดพลาด",
+      "editPassword": "แก้ไขรหัสผ่าน",
+      "title": "แก้ไขรหัสผ่านเข้าสู่ระบบ",
+      "msgEnterOriPass": "กรุณากรอกรหัสผ่านเดิม",
+      "OriPass": "รหัสผ่านเดิม"
+    },
+    "changePhone": {
+      "title": "แก้ไขโทรศัพท์",
+      "step1Title": "ตรวจสอบหมายเลขเดิม",
+      "step2Title": "ตั้งหมายเลขใหม่"
+    },
+
+    "nameVerify": {
+      "title": "ชื่อจริง",
+      "msgEnterICNum": "กรุณากรอกเลขประจำตัวประชาชน",
+      "icNum": "บัตรประจำตัวประชาชน",
+      "msgInvalidICNum": "หมายเลขประจำตัวไม่ถูกต้อง",
+      "msgPlsEnterName": "กรุณากรอกชื่อจริงของคุณ",
+      "msgPlsEnterICNum": "โปรดป้อนหมายเลขประจำตัวของคุณ",
+      "toEdit": "หากต้องการแก้ไขชื่อจริง โปรดติดต่อ",
+      "verifyName": "รับรองความถูกต้องด้วยชื่อจริง",
+      "tips": "เคล็ดลับ: ชื่อจริงต้องตรงกับชื่อบัตร ATM ในการถอนเงิน"
+    },
+    "password": {
+      "title": "รหัสผ่านสำหรับเข้าสู่ระบบ",
+      "settledLoginPassword": "รหัสผ่านสำหรับเข้าสู่ระบบของคุณถูกตั้งไว้ โปรดเก็บไว้ให้ปลอดภัย"
+    },
+    "bankCard": {
+      "title": "บัตรธนาคาร",
+      "settledBankCard": "บัตรธนาคารของคุณได้รับการตั้งค่าแล้ว โปรดเก็บไว้ให้ปลอดภัย",
+      "limitedWithdraw": "ยอดเงินที่ถอนได้ของคุณคือ:",
+      "biggerThanZero": "จำนวนการถอนต้องมากกว่า 0"
+    },
+    "phone": {
+      "title": "หมายเลขโทรศัพท์มือถือ",
+      "toEdit": "หากต้องการแก้ไขหมายเลขโทรศัพท์มือถือ โปรดคลิก",
+      "here": "ที่นี่",
+      "bindMobile": "ผูกหมายเลขโทรศัพท์มือถือ",
+      "phoneDesc": "โปรดวางใจ เราจะไม่เปิดเผยข้อมูลผู้ใช้หรือส่งข้อมูลที่ก่อกวน"
+    },
+    "email": {
+      "editEmail": "แก้ไขอีเมล",
+      "verifyEmail": "ยืนยันอีเมลต้นฉบับ",
+      "addEmail": "ตั้งค่าที่อยู่อีเมลใหม่",
+      "plsEnterEmail": "โปรดป้อนที่อยู่อีเมลของคุณ",
+
+      "bindEmail": "ผูกที่อยู่อีเมล",
+      "toEdit": "หากต้องการแก้ไขที่อยู่อีเมล โปรดคลิก",
+      "here": "ที่นี่"
+    },
+    "qq": {
+      "msgInvalidQQ": "รูปแบบของหมายเลขบัญชี QQ ไม่ถูกต้อง",
+      "plsEnterQQ": "กรุณากรอกหมายเลขบัญชี QQ ของคุณ",
+      "qqAccount": "บัญชี QQ"
+    },
+    "wechat": {
+      "msgInvalidWeChat": "รูปแบบของบัญชี WeChat ไม่ถูกต้อง",
+      "plsEnterWechat": "กรุณาป้อนบัญชี Wechat",
+      "weChatAccount": "บัญชี WeChat"
+    },
+    "resetResetWithdrawalPassword": {
+      "title": "แก้ไขรหัสผ่านการถอนเงิน",
+      "editWithdrawalPassword": "แก้ไขรหัสผ่านการถอน",
+      "bindMobile": "ผูกหมายเลขโทรศัพท์มือถือ",
+      "verifiedOriPhone": "ยืนยันหมายเลขโทรศัพท์มือถือ",
+      "verifiedEmail": "ที่อยู่อีเมลที่ยืนยันแล้ว",
+      "setNewWithdrawalPassword": "ตั้งรหัสผ่านการถอนใหม่",
+      "resetSuccess": "เปลี่ยนรหัสผ่านการถอนสำเร็จ"
+    },
+    "changeWithdrawalPassword": {
+      "title": "รหัสถอนเงิน",
+      "subTitle": "รหัสถอนเงิน",
+      "oldPassword": "รหัสผ่านเก่า",
+      "newPassword": "รหัสผ่านใหม่",
+      "confirmNewPassword": "ยืนยันรหัสผ่านใหม่",
+      "plsEnterOldPassword": "โปรดป้อนรหัสผ่านเก่า"
+    },
+
+    "withdrawalPassword": {
+      "msgInvalidConPass": "รหัสผ่านที่ป้อนทั้งสองไม่สอดคล้องกัน",
+      "title": "รหัสถอนเงิน",
+      "newPass": "รหัสถอนเงิน",
+      "msgEnterNewPass": "กรุณากรอกรหัสผ่านในการถอน",
+      "conPass": "ยืนยันรหัสผ่านการถอนเงิน",
+      "msgEnterConPass": "โปรดป้อนรหัสผ่านยืนยันการถอน",
+      "setWithdrawalPassword": "ตั้งรหัสผ่านการถอนเงิน",
+      "settledWithdrawalPassword": "ตั้งรหัสผ่านการถอนของคุณแล้ว โปรดเก็บไว้ให้ปลอดภัย"
+    }
+  },
+  "report": {
+    "title": "รายงาน",
+    "transferDetails": "บันทึกการโอน",
+    "withdrawalDetails": "รายงานการถอนเงิน",
+    "depositDetails": "รายงานการฝากเงิน",
+    "bettingDetails": "ประวัติการเดิมพัน",
+    "rebateDetails": "บันทึกการคืนเงิน",
+    "platform": "แพลตฟอร์ม",
+    "date": "วันที่",
+    "gamename": "ชื่อเกม",
+    "startDate": "วันที่เริ่มต้น",
+    "endDate": "วันที่สิ้นสุด",
+    "today": "วันนี้",
+    "oneWeek": "1 สัปดาห์",
+    "oneMonth": "1 เดือน",
+    "all": "ทั้งหมด",
+    "status": "สถานะ",
+    "RequestDate": "วันที่ขอ",
+    "submitDate": "วันที่ส่ง",
+    "transferOut": "โอนออก",
+    "transferIn": "โอนเข้า",
+    "OrderNumber": "หมายเลขคำสั่งซื้อ",
+    "depositChannel": "วิธีการชำระเงิน",
+    "withdrawal": {
+      "bankCard": "บัตรธนาคาร",
+      "status1": "กำลังรอการชำระเงิน",
+      "status2": "อยู่ระหว่างการอนุมัติ",
+      "status3": "ผ่าน",
+      "status4": "ถูกปฏิเสธ"
+    },
+    "deposit": {
+      "status1": "กำลังรอการชำระเงิน",
+      "status2": "อยู่ระหว่างการอนุมัติ",
+      "status3": "ผ่าน",
+      "status4": "ถูกปฏิเสธ"
+    },
+    "rebate": {
+      "sn": "หมายเลข",
+      "cycleDate": "รอบวันที่",
+      "validBet": "จำนวนเงินที่ถูกต้อง",
+      "amount": "จำนวนเงินคืน"
+    },
+    "dateTime": "เวลา",
+
+    "betDateTime": "เวลาเดิมพัน",
+    "betid": "หมายเลขคำสั่งซื้อ",
+    "amount": "จำนวนเงิน",
+    "betAmount": "จำนวนเงินเดิมพัน",
+    "totalBet": "เดิมพันทั้งหมด",
+    "validBet": "เดิมพันได้ถูกต้อง",
+    "betContent": "เนื้อหาการเดิมพัน",
+    "turnover": "น้ำไหล",
+    "winloss": "ชนะหรือแพ้",
+    "ratio": "อัตราต่อรอง"
+  },
+  "share": {
+    "bottomNote": {
+      "pleaseContact": "หากมีข้อสงสัยกรุณาติดต่อ",
+      "liveChat": "บริการออนไลน์"
+    },
+    "messageDialog": {
+      "info": "เตือนความจำ"
+    }
+  },
+  "slot": {
+    "hotGame": "เกมฮอต",
+    "allGame": "เกมทั้งหมด",
+    "newGame": "เกมใหม่ล่าสุด",
+    "bookmarkGame": "เกมคั่นหน้า",
+    "historyGame": "เกมประวัติศาสตร์",
+    "recommendGame": "แนะนำเกม",
+    "fullscreen": "เต็มจอ",
+    "search": "ค้นหาคำสำคัญ",
+    "all": "ทั้งหมด"
+  },
+
+  "transfer": {
+    "autoTransfer": "ออโต้เพย์",
+    "on": "เปิด",
+    "off": "ปิด",
+    "transferWallet": "กระเปาเงินเลนเกม ",
+    "quickTransfer": "โอนด่วน",
+    "invalidAmount": "จำนวนเงินไม่ถูกต้อง",
+    "insufficient": "ยอดเงินของคุณไม่เพียงพอ",
+    "transferSuccess": "โอนสำเร็จ",
+    "msgUnderMaintenance": "กรุณาขายและลองใหม่อีกครั้งหลังการบำรุงรักษา",
+    "refresh": "รีเฟรช",
+    "title": "โอน",
+    "totalFund": "ยอดเงินคงเหลือ",
+    "mainAccount": "กระเปาเงินหลัก",
+    "oneKeyReceive": "OneKeyReceive",
+    "oneKeyTransfer": "โอนทั้งหมด",
+    "maintenance": "บำรุงรักษา",
+    "transferFrom": "โปรดเลือกโอนจาก wallet",
+    "transferFromWallet": "โอนจาก Wallet",
+    "pleaseSelect": "กรุณาเลือก",
+    "transferTo": "โปรดเลือกโอนไปยังกระเป๋าเงิน",
+    "transferToWallet": "โอนไปยัง Wallet",
+    "msgEnterAmount": "กรุณากรอกจำนวนเงินที่โอน",
+    "maxAmount": "จำนวนเงินสูงสุด",
+    "transfer": "โอน",
+    "noticeTitle": "ประกาศ",
+    "msgFailedTransfer": "การโอนล้มเหลว"
+  },
+
+  "withdrawal": {
+    "msgInvalidAmt": "จำนวนการถอนต้องมากกว่า 0",
+    "msgCanWithdrawal": "ยอดเงินที่ถอนได้คือ: {{amount}}",
+    "msgEnterWithdrawalPass": "กรุณากรอกรหัสผ่านในการถอนเงิน",
+    "msgInsufficient": "ยอดเงินคงเหลือในกระเป๋าเงินกลางไม่เพียงพอ",
+    "msgSuccess": "ส่งคำขอถอนเงินของคุณเรียบร้อยแล้ว กรุณารออย่างอดทนเพื่อยืนยัน",
+    "title": "ถอนเงิน",
+    "limitDeposit": "ขีดจำกัดเดียว",
+    "canWithdrawal": "ถอนเงินได้",
+    "checkDetails": "ตรวจสอบรายละเอียด",
+    "manageBank": "จัดการบัตรธนาคาร",
+    "bankCard": "บัตรธนาคาร",
+    "msgEnterBank": "กรุณาเลือกบัตรธนาคาร",
+    "tail": "เลขท้าย",
+    "enterAmount": "กรุณากรอกจำนวนเงินที่ถอน",
+    "msgWithdrawalAmount": "ขีดจำกัดเดียวที่ 100-450,000",
+    "notice": "ชื่อเปิดบัญชีของบัตรธนาคารนี้จะต้องสอดคล้องกับชื่อจริงที่กรอกในหมายเลขบัญชีของคุณ มิฉะนั้น การถอนอาจล้มเหลว",
+    "receiverAcc": "รับบัญชี",
+    "receiverName": "ชื่อผู้รับเงิน",
+    "fee": "ค่าธรรมเนียมการจัดการ",
+    "receiverAmount": "จำนวนเงินเข้าบัญชี"
+  },
+  "promotion": {
+    "emptyLine1": "ไม่มีกิจกรรมในขณะนี้",
+    "emptyLine2": "โปรดตั้งตารอ",
+    "moreInfo": "ข้อมูลเพิ่มเติม",
+    "startDate": "วันที่เริ่มต้น:",
+    "endDate": "วันที่สิ้นสุด:",
+    "title": "โปรโมชั่น",
+    "promoType": "ประเภทโปรโมชัน",
+    "promoTarget": "PromoTarget",
+    "promoDetail": "เงื่อนไขพิเศษ",
+    "promoDate": "เวลาโปรโมชั่น",
+    "joinPromo": "เข้าร่วมโปรโมชั่น",
+    "joinSuccess": "เข้าร่วมสำเร็จแล้ว",
+    "promoJoint": "รับส่วนลดการเข้าร่วมแล้ว!",
+    "details": "รายละเอียด"
+  },
+  "web": {
+    "home": {
+      "Section1Chess": "โปกเกอร",
+      "Section1Slot": "เกมสล็อต",
+      "Section1Lottery": "เกมลอตเตอรี",
+      "Section1Fishing": "เกมตกปลา",
+      "Section1Sport": "เกมกีฬา",
+      "Section1Electron": "เกมอิเล็กตรอน"
+    },
+    "liveGame": {
+      "wmDesc": "คนจริงของ WM ที่สร้างขึ้นด้วยสเปคที่สูงนั้นติดตั้งอุปกรณ์ที่ทันสมัยที่สุดและการตกแต่งที่สวยงาม สร้างประสบการณ์การเล่นเกมวิดีโอแบบเรียลไทม์ที่ยอดเยี่ยมสำหรับผู้เล่น",
+      "saDesc": "SA Live Video คือการจัดการโดยตรงของ Asian Games Group ซึ่งเป็นการโต้ตอบของดีลเลอร์ออนไลน์ที่สวยงามที่สุด ที่จะพาคุณไปเล่น Baccarat, Sic Bo, Roulette, Jinhua และวิดีโอเกมถ่ายทอดสดอื่นๆ มาตรฐานสากล ความยุติธรรม , ความเพลิดเพลินสูงสุด",
+      "bgDesc": "วิดีโอความละเอียดสูงพิเศษ คุณภาพเสียงของ Anchor ที่สมบูรณ์แบบ ฯลฯ ให้ Anchor หญิงสุดเซ็กซี่น่ารักโต้ตอบกับผู้เล่นอย่างใกล้ชิดและมอบประสบการณ์เกมที่น่าสนใจ!",
+      "abDesc": "วิดีโอเกมออนไลน์สดหลักของ ALLBET ตลอด 24 ชั่วโมง ให้ผู้เล่นได้ดื่มด่ำกับเกมยอดนิยมมากมายให้ผู้เล่นเพลิดเพลินไปกับความตื่นเต้นของเกมทุกที่ทุกเวลา",
+      "vgDesc": "ผลิตภัณฑ์และแพลตฟอร์มขั้นสูงมอบประสบการณ์การเล่นเกมที่แท้จริงที่สุดในตลาดทุกวันนี้ คุณไม่จำเป็นต้องออกจากบ้านเพื่อสัมผัสกับความตื่นเต้นของคาสิโนจริง"
+    },
+    "lotteryGame": {
+      "vrDesc": "VR Lottery มอบรูปแบบการเล่นลอตเตอรีใหม่ที่สะดวกและสมบูรณ์ที่สุด ประสบการณ์การโต้ตอบที่ยอดเยี่ยม และเปิดศักราชใหม่ของลอตเตอรี",
+      "bgDesc": "BG Lottery สร้างประสบการณ์การเล่นเกมคุณภาพสูง แสวงหานวัตกรรมและการเปลี่ยนแปลงใหม่ๆ อย่างต่อเนื่อง รักษาบริการที่ดีที่สุด และให้คุณชนะเกมลอตเตอรีมากกว่า 100 เกม!",
+      "kmDesc": "มุ่งเน้นไปที่อุตสาหกรรมเกมลอตเตอรีเป็นเวลาหลายปีด้วยสีสันและรูปแบบการเล่นที่คลาสสิก นอกจากนี้ยังมีอินเทอร์เฟซเกมที่ใช้งานง่ายซึ่งจะเพิ่มความแวววาวให้กับกระบวนการเกมของคุณ!"
+    },
+    "chessGame": {
+      "kyDesc": "จับกระทิง กระทิง มังกรและเสือ แล้วเลือกหมากรุกและไพ่อันหลากหลาย! หมากรุกและไพ่แสดงความคิดของคุณ ความบันเทิงในการแข่งขัน เผาสมอง เพื่อนพบปะและแข่งขัน เกมเปลี่ยนคุณ ชีวิต"
+    },
+    "slotGame": {
+      "btnStart": "เริ่มเลย",
+      "btnTrial": "ทดลองใช้ฟรี",
+      "btnBookmark": "คอลเลกชั่น",
+      "keyword": "คีย์เวิร์ด",
+      "search": "ค้นหา",
+      "recommendedGame": "เกมแนะนำ",
+      "more": "เพิ่มเติม",
+      "famousGame": "ทุกคนกำลังเล่นอยู่",
+      "rtpRank": "อันดับอัตราผลตอบแทน"
+    },
+    "header": {
+      "announcement": "ประกาศ",
+      "promotion": "โปรโมชั่นล่าสุด",
+      "mobver": "เทอร์มินัลมือถือ",
+      "plsClick": "กรุณาคลิก",
+      "bookmark": "ไซต์รวบรวม",
+      "addBookmark": "เพิ่มในรายการโปรด",
+      "transfer": "โอน",
+      "deposit": "ฝาก",
+      "mainAccount": "ยอดเงินคงเหลือ:",
+      "dollor": "元",
+      "logout": "ออกจากระบบ",
+      "welcomBack": "ยินดีตอนรับ"
+    },
+    "rightNavBar": {
+      "wallet": "ศูนย์กองทุน",
+      "codeTitle": "ดาวน์โหลดแอป",
+      "cs": {
+        "csDesc": "บริการลูกค้าออนไลน์",
+        "contact": "เบอร์ติดต่อ"
+      }
+    },
+    "marquee": {
+      "latestNews": "ประกาศล่าสุด:"
+    },
+    "footer": {
+      "footerDescTitle": "พันธมิตร",
+      "footerDescText": "ไม่ว่าคุณต้องการเล่นอะไร พันธมิตรของ {brand} จะทำให้ประสบการณ์การเล่นเกมของคุณดีขึ้น",
+      "paymentTitle": "การชำระเงิน·ใบอนุญาต",
+      "cautionText": "ผู้ที่มีอายุต่ำกว่า 18 ปีเล่นการพนันเป็นสิ่งผิดกฎหมาย {brand} จะบังคับใช้แง่มุมนี้อย่างเคร่งครัด เราจะตรวจสอบอายุของลูกค้าและอาจกำหนดให้ส่งไฟล์เสริม",
+      "appDownload": "ดาวน์โหลดแอป",
+      "appDownloadLine2": "ประสบการณ์ที่ดีที่สุดทุกที่ทุกเวลา",
+      "wapQRCodeDesc": "เข้าถึงโทรศัพท์มือถือดาวน์โหลดฟรี",
+      "appQRCodeDesc": "ดาวน์โหลดโค้ดสแกนแอป",
+      "affiliateCampaign": "Affiliate สร้างความโดดเด่นไปด้วยกัน",
+      "affiliateCampaignLine2": "แผนคอมมิชชั่นโบนัส 100%",
+      "customerServiceHotline": "สายด่วนบริการลูกค้าภายในประเทศตลอด 24 ชั่วโมง",
+      "contactUs": "ติดต่อเรา",
+      "contactNumber": "หมายเลขโทรศัพท์บริการ: 400-120-8118",
+      "contactEmail": "อีเมลติดต่อ: cs@{brand}.com",
+
+      "copyright": "เว็บไซต์นี้ได้รับอนุญาตและดูแลโดย (PAGCOR) Philippine Amusement and Gaming Corporation",
+      "copyrightLine2": "{brand} ลิขสิทธิ์© 2020 {brand} Casino Co.Group สงวนลิขสิทธิ์"
+    },
+    "login": {
+      "login": "เข้าสู่ระบบ",
+      "loginTitle": "เข้าสู่ระบบบัญชีของคุณ",
+      "loginTitleLine2": "เว็บไซต์เกมที่ดีที่สุดในเอเชีย",
+      "newRegister": "การลงทะเบียนผู้ใช้ใหม่",
+
+      "rememberMe": "จำชื่อผู้ใช้",
+      "forgetPass": "ลืมรหัสผ่าน?",
+      "cs": "หากคุณมีปัญหาในการเข้าสู่ระบบ กรุณาทันที",
+      "contactus": "ติดต่อเรา",
+      "btn": "เข้าสู่ระบบเลย",
+      "footerDesc": "เว็บไซต์นี้ใช้บริการ SSL 128/256 บิตที่ทันสมัยที่สุดของ Global Trust",
+      "controlTitle": "การเล่นเกมอย่างมีความรับผิดชอบ",
+      "controlDesc": "คุณได้ตั้งค่าการควบคุมตนเอง บัญชีจะอยู่ใน",
+      "controlText": "ปลดล็อกภายหลัง",
+      "errorMsg": {
+        "emptyUsername": "ชื่อผู้ใช้ไม่สามารถเว้นว่างได้",
+        "emptyPassword": "รหัสผ่านไม่สามารถเว้นว่างได้"
+      }
+    },
+    "register": {
+      "registerTitle": "ลงทะเบียนบัญชีของคุณ",
+      "registerTitleLine2": "เว็บไซต์เกมที่ดีที่สุดในเอเชีย",
+      "username": "กรุณากรอกชื่อผู้ใช้ (6-32 หลักเป็นภาษาอังกฤษหรือตัวเลข)",
+      "password": "กรุณาใส่รหัสผ่าน (6-20 ตัวพิมพ์ใหญ่และตัวพิมพ์เล็กภาษาอังกฤษ ตัวเลข หรือสัญลักษณ์พิเศษ)",
+      "confirmPassword": "รหัสผ่านซ้ำ",
+      "withdrawalPassword": "กรุณากรอกรหัสผ่านการถอน (6 หลัก)",
+      "confirmWithdrawalPassword": "ทำซ้ำรหัสผ่านการถอน",
+      "promoteCode": "รหัสคำเชิญ (ไม่บังคับ)",
+      "contract": "ฉันยืนยันว่าฉันอายุเกิน 18 ปีและได้อ่านและยอมรับนโยบาย คำชี้แจงสิทธิ์ส่วนบุคคล ข้อกำหนดและเงื่อนไขของเว็บไซต์นี้แล้ว",
+      "btn": "ลงทะเบียนเลย"
+    },
+    "resetPassword": {
+      "title": "รีเซ็ตรหัสผ่าน",
+      "oldPassword": "รหัสผ่านเก่า",
+      "newPassword": "รหัสผ่านใหม่",
+      "confirmNewPassword": "ยืนยันรหัสผ่านใหม่",
+      "resetSuccess": "รีเซ็ตรหัสผ่านสำเร็จ"
+    },
+
+    "account": {
+      "fund": "การจัดการกองทุน",
+      "personal": "บัญชีส่วนตัว",
+      "deposit": "ฝาก",
+      "withdrawal": "ถอนเงิน",
+      "transfer": "โอน",
+      "report": "รายงาน",
+      "profile": "ข้อมูลส่วนตัว",
+      "inbox": "ศูนย์ข้อความ",
+      "affiliate": "โปรโมชั่นสร้างรายได้",
+      "header": {
+        "lastLogin": "เวลาเข้าสู่ระบบครั้งสุดท้าย",
+        "total": "ยอดเงินคงเหลือ",
+        "mainWallet": "กระเปาเงินหลัก",
+        "allGameWallet": "กระเปาเงินเลนเกม "
+      },
+      "msgCenterAcc": {
+        "inbox": "กล่องขาเข้า",
+        "noMsg": "ยังไม่มีข้อมูล",
+        "errorMsg": "ยังไม่ได้เลือกข้อความ",
+        "tickAll": "เลือกทั้งหมด",
+        "delete": "ลบ",
+        "markAsRead": "ทำเครื่องหมายว่าอ่านแล้ว"
+      }
+    },
+
+    "download": {
+      "titleDesc": "ข้อมูลที่ปลายนิ้วสัมผัส จากปลายนิ้วสู่ใจ มีความปลอดภัยและสะดวกในการเข้าถึงและโอน ความบันเทิงสด การพนันกีฬา เกมอิเล็กทรอนิกส์ ฯลฯ ล้วนอยู่ในมือเดียว {brand} มุ่งมั่นที่จะนำเสนอ แตกต่างไปจากผู้ใช้ทุกคน ประสบการณ์ที่มีสีสันและสุดยอด",
+      "supportPlatform": "(รองรับ Android/iOS)",
+      "pcDownload": "โทรศัพท์มือถือดาวน์โหลดฟรี",
+      "mobileDownload": "ดาวน์โหลดโค้ดสแกนแอป"
+    },
+
+    "maintenance": {
+      "title": "ขออภัย ระบบอยู่ในระหว่างการบำรุงรักษา",
+      "maintenance": "บำรุงรักษา",
+      "maintenancePeriod": "ระยะเวลาบำรุงรักษา:",
+      "desc": "เพื่อให้คุณได้สัมผัสกับเกมที่ดีขึ้น เราทำงานกันอย่างหนัก",
+      "descText": "หากคุณมีคำถามใดๆ โปรดติดต่อฝ่ายบริการลูกค้าออนไลน์ให้ทันเวลา",
+      "btn": "ติดต่อเรา"
+    }
+  },
+  "PrimePay": "โอนดวยบัญชีที่ลงทะเบียน",
+  "LeePay": "โอนผานบัญชี Lee pay",
+  "ApplePay": "Apple Pay",
+  "Manual": "โอนผานบัญชีอื่น",
+  "Crypto": "สกุลเงินเสมือน",
+  "BankTransfer": "การโอนเงินผ่านธนาคาร",
+  "CustomBank": "ธนาคารที่กำหนดเอง",
+  "VR": {
+    "lottery": "VR",
+    "desc": "VR Lottery has always been in the leading position in the industry with \"fairness, safety, fast and accuracy\", and has an all-round system of artificial intelligence. We have all kinds of mainstream lottery here, mainly divided into \"VR Live streaming lottery\" and \"VR lottery\". We are also developing the \"VR Electronic\" series of games, determined to give customers more diversified choices.    VR will continue to create and progress, in order to introduce more new kind lottery for the public, and create an all-round entertainment environment."
+  },
+  "KY": {
+    "chess": "KaiYuan",
+    "desc": "คว้าตัววัว ตัววัว ตัวผู้ ตัวผู้ มังกร และเสือ แล้วคุณสามารถเลือกหมากรุกและไพ่ได้หลากหลาย! หมากรุกและไพ่แสดงความคิดของคุณ ความบันเทิงในการแข่งขัน เผาสมอง พบปะเพื่อนฝูง และแข่งขัน เกมเปลี่ยนชีวิตคุณ",
+    "BankerNiuNiu": "Niu-Niu",
+    "GoldenFlower": "Gloden Flower",
+    "The21Point": "The 21 Point",
+    "SanGong": "San-Gong",
+    "fish": "KY"
+  },
+  "sports": {
+    "desc": "PG นำเสนอรูปแบบการเล่นที่แปลกใหม่และหลากหลายและการถ่ายทอดเหตุการณ์ที่อัตราต่อรองสูง เช่นเดียวกับการใช้อุปกรณ์ต่างๆ ทุกที่ทุกเวลา ช่วยให้คุณวางเดิมพันได้อย่างง่ายดาย รวดเร็ว และปลอดภัย บวกกับความมั่งคั่งของ การพนันกีฬารวมถึงฟุตบอล บาสเก็ตบอล เบสบอล เทนนิส อเมริกันฟุตบอล อีสปอร์ต ฯลฯ เพื่อตอบสนองความต้องการของผู้รักกีฬาทุกคน!"
+  },
+  "esports": {
+    "desc": "IM e-sports มีการสนับสนุนด้านเทคนิคที่ยอดเยี่ยม เช่นเดียวกับอินเทอร์เฟซภาพที่น่าทึ่งและประสบการณ์ผู้ใช้ที่มีประสิทธิภาพ ตอนนี้ผ่านแพลตฟอร์มเครือข่ายแพ็คเกจ [PG] สัมผัสความสนุกของการเดิมพัน e-sports ได้ง่ายๆ!"
+  },
+  "services": {
+    "depositTitle": "การฝากและถอนเงินด่วน",
+    "deposit": "เทคโนโลยีล่าสุดที่พัฒนาขึ้นอย่างอิสระระบบการประมวลผลทางการเงินทำให้สามารถฝาก ดึงข้อมูล และโอนเทคโนโลยีการเพิ่มประสิทธิภาพเครือข่ายได้รวดเร็วอย่างแท้จริง มอบประสบการณ์การเล่นเกมระดับเฟิร์สคลาสและเพิ่มเวลาแฝงของเครือข่ายสูงสุด",
+    "securityTitle": "การเข้ารหัสการจัดการความปลอดภัย",
+    "security": "ได้รับการพัฒนาเป็นพิเศษโดยใช้เทคโนโลยีการเข้ารหัส 128 บิตและระบบการจัดการความปลอดภัยที่เข้มงวด เงินทุนของลูกค้าคือการป้องกันที่สมบูรณ์ที่สุด ช่วยให้คุณเพลิดเพลินกับความบันเทิง เดิมพันกิจกรรม และไม่ต้องกังวล!",
+    "oddsTitle": "ประเภทงานใหญ่",
+    "odds": "เสนอกิจกรรมกีฬาที่น่าตื่นเต้นเกือบพันรายการให้คุณทุกวัน เช่นเดียวกับตัวเลือกความบันเทิงที่หลากหลาย เช่น ไลฟ์แอ็กชัน ลอตเตอรี เกมอิเล็กทรอนิกส์ ฯลฯ เพื่อให้คุณได้รับประสบการณ์การเล่นเกมที่สมบูรณ์แบบ",
+    "platformTitle": "คุณสามารถเลือกได้จากสามเทอร์มินัล",
+    "platform": "เทคโนโลยีที่ยอดเยี่ยมที่เป็นผู้นำตลาด พัฒนาชุดแอปพลิเคชันเทอร์มินัลอย่างอิสระ ช่วยให้คุณเพลิดเพลินกับเว็บ, H5 และ iOS, แอพ Android ดั้งเดิม ช่วยให้คุณเดิมพันได้ทุกที่ทุกเวลา! บริการลูกค้าออนไลน์ 7x24 ให้บริการที่ใกล้ชิดที่สุด คุณภาพดีที่สุด"
+  },
+  "AG": {
+    "name": "Asia Gaming",
+    "live": "Asia Gaming"
+  },
+  "BG": {
+    "name": "Big Gaming",
+    "live": "Big Gaming",
+    "fish":"Big Gaming"
+  },
+  "SG": {
+    "name": "Sexy Gaming",
+    "live": "Sexy Gaming"
+  },
+  "SW": {
+    "live": "Skywind",
+    "slots": "Skywind",
+    "electron": "Skywind"
+  },
+  "SBO": {
+    "sports": "SBO"
+  },
+  "IMES": {
+    "sports": "IM"
+  },
+  "SABA": {
+    "sports": "SABA"
+  },
+  "HABA": {
+    "slots": "Habanero",
+    "electron": "Habanero",
+    "fish": "HABA"
+  },
+  "JDB": {
+    "slots": "JDB",
+    "fish": "JDB"
+  },
+  "PP": {
+    "slots": "Pragmatic Play",
+    "electron": "Pragmatic Play"
+  },
+  "EVO": {
+    "live": "Evolution",
+    "slots": "Evolution"
+  },
+  "AB": {
+    "live": "Allbet"
+  },
+  "RT": {
+    "slots": "RedTiger"
+  },
+  "NT": {
+    "slots": "Netent"
+  }
+}

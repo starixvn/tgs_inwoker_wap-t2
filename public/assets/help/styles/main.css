@@ -1,0 +1,29 @@
+.example-to-link-image {
+  background: url(/help/images/test.png) no-repeat;
+}
+.header {
+  width: 100%;
+  height: 81px;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: #fdeced;
+  padding: 25px 0 0 30px;
+}
+.content {
+  width: 100%;
+
+  font-size: 14px;
+  color: #747474;
+  padding: 20px 30px;
+  min-height: 686px;
+}
+ol {
+  padding: 0 0 0 18px;
+  margin: 0;
+}
+li {
+  padding: 5px 0;
+}
+.remark {
+  color: red;
+}

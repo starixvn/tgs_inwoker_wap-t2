@@ -1,0 +1,41 @@
+include:
+  - project: 'inwoker/tgs/tgs-gitlab-ci-jobs'
+    ref: main
+    file: '/templates/.lobby-deployment.yaml'
+
+variables:
+  ImageName: pgtgs/lobby-t2
+  components_dev: lobby-t2
+  components_staging: lobby-gpi-t2,lobby-demo-t2,lobby-pb3,lobby-wghk,lobby-king8,lobby-wghk
+  components_prod: lobby-gpi-t2,lobby-gpi2,lobby-pb3,lobby-king8,lobby-wghk
+  GIT_STRATEGY: clone
+  GIT_SUBMODULE_STRATEGY: normal
+  GIT_SUBMODULE_UPDATE_FLAGS: "--remote --checkout --no-single-branch"
+  API_BRANCH_VARIABLE: $CI_COMMIT_BRANCH
+build:
+  extends: .build
+  stage: build
+  only:
+    - master
+    - release/current
+    - develop
+  before_script:
+    - |
+      if [ "$CI_COMMIT_BRANCH" == "release/current" ]; then
+        API_BRANCH_VARIABLE="develop"
+      else
+        API_BRANCH_VARIABLE=$CI_COMMIT_BRANCH
+      fi
+    - git submodule sync --recursive
+    - git config --file=.gitmodules submodule.src/api-services.branch $API_BRANCH_VARIABLE
+    - git config --file=.gitmodules submodule.src/components/Wap.branch $CI_COMMIT_BRANCH
+    - git submodule update --init --remote
+
+deploy-dev:
+  extends: .deploy-dev
+
+deploy-staging:
+  extends: .deploy-staging
+      
+deploy-prod:
+  extends: .deploy-prod

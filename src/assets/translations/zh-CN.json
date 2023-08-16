@@ -1,0 +1,855 @@
+{
+  "lang": {
+    "language": "语言",
+    "zh-TW":"繁体",
+    "zh-CN":"简体",
+    "en-US":"English",
+    "th-TH":"ไทย",
+    "id-ID":"Indonesia",
+    "vi-VN":"Tiếng Việt"
+  },
+  "error": {
+    "ERR101": "无效的凭证。",
+    "ERR201": "找不到玩家。",
+    "ERR202": "玩家已被禁。",
+    "ERR401": "请检查您的输入。"
+  },
+  "panel": {
+    "im": "即时通讯",
+    "cs": "客服",
+    "imLong": "即时通讯",
+    "liveChatWelcome": "【客服中心】欢迎你！",
+    "liveChatDescription": "请选择你的问题类型以加快服务速度！",
+    "liveChatOptionFund": "点数问题",
+    "liveChatOptionBall": "球赛问题",
+    "liveChatOptionLive": "真人游戏",
+    "liveChatOptionLottery": "彩球游戏",
+    "liveChatOptionRegister": "注册问题",
+    "liveChatOptionSlot": "电子游戏"
+  },
+
+  "support": {
+    "contactnow": "立即联系",
+    "online": "在线客服",
+    "contact": "联系",
+    "qr": "二维码客服",
+    "join": "加入"
+  },
+
+  "common": {
+    "title": "{brand} - 专业娱乐平台",
+    "register": "注册",
+    "login": "登录",
+    "submit": "提交",
+    "confirm": "确定",
+    "back": "返回",
+    "check": "立即查看",
+    "nextStep": "下一步",
+    "more": "查看更多",
+    "send": "发送",
+    "choose": "选择",
+    "complete": "完成",
+    "close": "关闭",
+    "cancel": "取消",
+    "delete": "删除",
+    "search": "搜索",
+    "verified": "已认证",
+    "configured": "已验证",
+    "phoneNumber": "手机号码",
+    "btnTokenLabel": "获取验证码",
+    "token": "验证码",
+    "btnTokenResendLabel": "重新发送",
+    "msgInvalidInvitationCode": "邀请码无效",
+    "msgSendToken": "发送验证码",
+    "msgTokenSent": "验证码发送成功",
+    "msgTokenVerified": "验证成功",
+    "msgEnterPhone": "请输入您的手机号码",
+    "msgEnterEmail": "请输入您的邮箱地址",
+    "msgInvalidEmail": "邮箱地址不正确",
+    "msgEnterCode": "请输入验证码",
+    "msgInvalidPhoneCode": "验证码错误",
+    "msgEnterEmailCode": "请输入邮箱验证码",
+    "msgEnterPhoneCode": "请输入手机验证码",
+    "msgInvalidConfirmPass": "两次密码要一致",
+    "msgInvalidOldPass": "旧密码不正确",
+    "msgRegisterUserNameInvalid": "账户长度必须是在6到32位之间,且必须由数字，字母或组合",
+    "msgRegisterPassInvalid": "密码长度必须在6到20位数字之间",
+    "msgRegisterPassMatchInvalid": "密码必须与确认密码相同",
+    "msgRegisterTermAndCondition": "请确认您已阅读我们的条款和条件",
+    "msgRegisterWithdrawalPassInvalid": "提款密码应为6位数字",
+    "msgRegisterWithdrawalPassMatchInvalid": "提款密码必须与确认提款密码相同",
+    "msgAlreadyExist": "用戶名稱已存在",
+    "emailAddress": "邮箱地址",
+    "qqNumber": "QQ账号",
+    "wechatNumber": "微信账号",
+    "receiverAddress": "收货地址",
+    "loginPassword": "登录密码",
+    "contact": "联系",
+    "customerService": "在线客服",
+    "withdrawalPassword": "提款密码",
+    "securityQuestion": "安全问题",
+    "realName": "真实姓名",
+    "teamVP": "Virtus.pro",
+    "teamFrankfurt": "德甲法兰克福",
+    "g2Esport": "G2 Esports",
+    "amount": "金额",
+    "support": "如有问题，请及时",
+    "contactus": "联系我们",
+    "comingSoon": "尽情期待",
+    "sports": "体育电竞",
+    "esports": "电竞",
+    "live": "真人娱乐",
+    "lottery": "彩票游戏",
+    "chess": "棋牌游戏",
+    "slot": "老虎机",
+    "electron": "电子游戏",
+    "fish": "捕鱼",
+    "promotion": "优惠活动",
+    "download": "下载",
+    "home": "首页",
+    "member": "会员",
+    "csPhoneNumber": "000-000-0000",
+    "bank": "银行",
+    "dollor": "元",
+    "copy": "拷贝",
+    "reload": "重新加载",
+    "msgPopupBlocker": "自动弹窗被拦截了，请手动开启",
+    "username": "用户名",
+    "password": "密码",
+    "msgEnterUsername": "请输入用户名",
+    "msgEnterPassword": "请输入密码",
+    "deposit": "存款",
+    "withdrawal": "提款",
+    "transfer": "转账",
+    "info": "提示",
+    "update": "修改",
+    "reset": "重置",
+    "msgEnterNewPass": "请输入新密码",
+    "NewPass": "新密码",
+    "msgEnterOldPass": "请输入旧密码",
+    "oldPass": "旧密码",
+    "msgEnterConfirmPass": "请再次输入新密码",
+    "ConfirmPass": "确认新密码",
+    "language": "语言",
+    "startGame": "立即体验",
+    "cs": "客服",
+    "msgSuccessUpdateProfile": "修改成功。",
+    "joinGame": "立刻体验",
+    "withdrawalBankType": "类别",
+    "withdrawalChannel": "渠道",
+    "withdrawalNumber": "银行卡号码/加密货币地址",
+    "msgEnterWithdrawalNumber": "请输入银行卡号码/加密货币地址",
+    "msgEmailExist": "电子邮件地址已存在",
+    "msgRequiredTurnover": "您的投注流水不足，无法提款。 如有问题，请联系客服。",
+    "msgInvalidUsername": "帐号或密码错误",
+    "msgInvalidWithdrawalPassword": "提款密码不正确",
+    "msgRequestFailed": "请求失败，请联系客服"
+  },
+  "affiliate": {
+    "title": "推广赚钱",
+    "details": "推广详情",
+    "downline": "我的会员",
+    "report": "业绩账单",
+    "info": "返佣说明",
+    "qrCode": "推广二维码",
+    "promoId": "我的推广 ID",
+    "promoLink": "推广链接",
+    "memberName": "用户名",
+    "UUID": "UUID",
+    "dateTime": "时间",
+    "transAmount": "交易金额",
+    "commission": "佣金",
+    "status": "状态",
+    "copied": "已复制"
+  },
+  "card": {
+    "title": "管理银行卡",
+    "myCard": "我的银行卡",
+    "tail": "尾号",
+    "transferRecord": "转账纪录",
+    "removeCard": "卡片移除",
+    "checkDetails": "查询",
+    "remove": "删除",
+    "msgSlideToDelete": "滑动以删除银行卡",
+    "msgAddCard": "添加银行卡",
+    "msgAddCardDesc": "添加银行卡后即可进行转出提款,至多3张。",
+    "addCard": {
+      "title": "添加银行卡",
+      "subTitle": "银行卡卡号需是15-19位数字",
+      "msgSelectBank": "请输入银行",
+      "msgEnterCard": "请输入银行卡号",
+      "BankName": "银行名称",
+      "msgEnterBankName": "请输入银行名称",
+      "BankAccountName": "银行账号名称",
+      "msgEnterBankAccountName": "请输入银行账号名称",
+      "cardHolder": "持卡人",
+      "msgEnterCardHolder": "请输入持卡人姓名",
+      "cardNum": "银行卡号",
+      "desc": "资讯加密处理，仅用银行验证",
+      "branch": "支行",
+      "branchPlaceHolder": "请输入银行支行"
+    },
+    "success": {
+      "title": "添加银行卡成功",
+      "successDesc": "恭喜您已经设定完成银行卡绑定，后续在提款时可以快速选取您的银行卡，若还想绑定其他银行卡，",
+      "bindDesc": "请点选下方“绑定其他银行卡”再次进行操作。",
+      "reminder": "贴心提醒",
+      "callHotline": "或拨打000-000-0000获得帮助。",
+      "bindBankCard": "绑定其他银行卡",
+      "goWithdrawal": "前往提款"
+    }
+  },
+  "deposit": {
+    "title": "存款",
+    "plsEnterDepositAmount": "请输入存款金额",
+    "msgMinDeposit": "至少应充值{{amount}}以上",
+    "msgMaxDeposit": "存款金额大于本公司设置的最高限额",
+    "msgMaintenance": "存款系统维护中，请稍后再试...",
+    "paymentTunnel": "支付通道",
+    "msgEnterCard": "请输入银行卡",
+    "bankCard": "银行卡",
+    "msgPleaseEnter": "请输入",
+    "dollor": "元",
+    "depositAmount": "存款金额",
+    "chooseAmount": "请选择金额",
+    "limitDeposit": "单笔限额",
+    "reminderTitle": "温馨提醒：",
+    "orderNumber": "订单编号",
+    "completeDeposit": "完成付款",
+    "confirmRedirect": "将跳出本站，前往支付平台",
+    "depositMethod": "支付方式",
+    "depositTunnel": "支付渠道",
+    "promotion": "优惠活动",
+    "msgPlsSelectPromotion": "请选择优惠活动",
+    "senderName": "汇款账户名",
+    "uploadSuccess": "凭证上传成功，请耐心等待确认。",
+    "cancelDeposit": "存款取消成功。",
+    "uploadReceipt": "上传凭证",
+    "msgPlsSelectFile": "请选择上传文件",
+    "upload": "上传",
+    "cancel": "取消付款",
+    "qrDesc": "手机扫一扫 轻松支付",
+    "receiverBank": "收款银行名称",
+    "receiverAccount": "收款银行账户",
+    "receiverNumber": "收款银行账号",
+    "msgDialog": "自动弹窗被拦截了，请手动开启",
+    "msgPlsSelectPayment": "请选择支付方式",
+    "msgPlsSelectMethod": "请选择支付渠道",
+    "msgPlsEnterAccount": "请输入银行账号名称",
+    "msgInvalidFileSize": "文件太大，请选择小于2mb的文件",
+    "msgInvalidFileType": "请仅上传图像文件。(.jpg/.jpeg/.png/.tiff)",
+    "msgFailedJoinPromotion": "您无法参加此活动。如有问题，请联系客服。",
+    "exchangeRate": "汇率",
+    "buyPrice": "买",
+    "sellPrice": "卖",
+    "expectedPayment": "预计支付",
+    "details": {
+      "bank": "银行",
+      "account": "账户",
+      "accountNum": "账号",
+      "failedOrder": "您的订单已失效",
+      "failedOrderDesc": "请重新生成订单后，再进行存款",
+      "msgDepositValidDate": "距离此订单有效期",
+      "hour": "小时",
+      "minute": "分",
+      "second": "秒",
+      "cancelOrder": "取消订单",
+      "orderVerify": "到账核对"
+    }
+  },
+  "forgotPassword": {
+    "title": "忘记密码",
+    "plsEnterPhoneNumber": "请输入绑定的手机号码",
+    "invalidConfirmPass": "确认密码错误",
+    "updateSuccess": "密码重置成功"
+  },
+  "inbox": {
+    "title": "消息中心",
+    "manage": "编辑",
+    "markAsRead": "标记已读",
+    "dateTime": "时间",
+    "type": "公告类型",
+    "inboxTitle": "信件标题",
+    "details": "详情"
+  },
+  "wap": {
+    "login": {
+      "browse": "去逛逛",
+      "rememberMe": "记住用户名",
+      "forgetPass": "忘记密码?"
+    },
+    "register": {
+      "username": "请输入用户名 (8-16位英文或数字)",
+      "password": "请输入密码 (6-20位大小写英文，数字或特殊符号)",
+      "confirmPassword": "重复密码",
+      "withdrawalPassword": "请输入提款密码 (6位数字)",
+      "confirmWithdrawalPassword": "重复提款密码",
+      "promoteCode": "邀请码（选填）"
+    },
+    "main": {
+      "homePage": "首页",
+      "promo": "优惠",
+      "cs": "客服",
+      "my": "我的",
+      "account": {
+        "mainAccount": "中心钱包余额：",
+        "totalFund": "玩家总资金",
+        "accountReport": "帐户明细",
+        "betReport": "投注记录",
+        "transferReport": "转换记录",
+        "personalInfo": "个人资料",
+        "manageBank": "管理银行卡",
+        "inbox": "消息通知",
+        "affiliate": "推广赚钱",
+        "question": "常见问题",
+        "appDownload": "APP下载",
+        "setting": "设定",
+        "signout": "退出登录"
+      },
+      "home": {
+        "gameTab": {
+          "sports": "体育",
+          "esports": "电竞",
+          "live": "真人",
+          "lottery": "彩票",
+          "chess": "棋牌",
+          "electron": "电子",
+          "slot": "老虎",
+          "fish": "捕鱼"
+        },
+        "profile": {
+          "announcement": "公告",
+          "welcomeBack": "欢迎您回来，",
+          "pleaseLogin": "亲爱的用户您好，请先登录...",
+          "profile": "个人资料",
+          "mainAccount": "总资金",
+          "loginRegister": "登入/注册"
+        }
+      },
+      "bottomNavigation": {
+        "homePage": "首页",
+        "promo": "优惠",
+        "customerService": "客服",
+        "profile": "我的"
+      },
+      "menuDrawer": {
+        "deposit": "存款",
+        "withdrawal": "提款",
+        "transfer": "转账",
+        "transReport": "交易记录",
+        "betReport": "帐户明细",
+        "withdrawalReport": "提款记录",
+        "depositReport": "存款记录",
+        "bankCard": "管理银行卡",
+        "inbox": "消息中心"
+      }
+    }
+  },
+
+  "profile": {
+    "setted": "已设置",
+    "setNow": "立即设置",
+    "edit": "修改",
+    "notSet": "未设置",
+    "notVerify": "未认证",
+    "nowVerify": "立即认证",
+    "title": "个人资料",
+    "basicInfo": "基本资料",
+    "otherInfo": "其他资料",
+    "securityInfo": "安全中心",
+    "accInfo": "账户资料",
+    "details": "查看",
+    "phoneVerification": "手机验证",
+    "emailVerification": "邮箱验证",
+    "msgPlsBindEmailAddress": "请绑定邮箱地址",
+    "changePassword": {
+      "msgConfirmPassFail": "确认密码错误",
+      "editPassword": "修改密码",
+      "title": "修改登录密码",
+      "msgEnterOriPass": "请输入原始密码",
+      "OriPass": "原始密码"
+    },
+    "changePhone": {
+      "title": "修改手机",
+      "step1Title": "验证原号码",
+      "step2Title": "设定新号码"
+    },
+
+    "nameVerify": {
+      "title": "真实姓名",
+      "msgEnterICNum": "请输入您的身份证号码",
+      "icNum": "身份证",
+      "msgInvalidICNum": "身份证号码不正确",
+      "msgPlsEnterName": "请输入您的真实姓名",
+      "msgPlsEnterICNum": "请输入您的身份证号码",
+      "toEdit": "如需修改真实姓名，请联系",
+      "verifyName": "实名认证",
+      "tips": "提示： 真实姓名需要与提款卡姓名相同才可提款"
+    },
+    "password": {
+      "title": "登录密码",
+      "settledLoginPassword": "您的登录密码已经设定，请妥善保管。"
+    },
+    "bankCard": {
+      "title": "银行卡",
+      "settledBankCard": "您的银行卡已经设定，请妥善保管。",
+      "limitedWithdraw": "您可的可提款余额为：",
+      "biggerThanZero": "提款金额 必须大于 0"
+    },
+    "phone": {
+      "title": "手机号码",
+      "toEdit": "如需修改手机号码，请点击",
+      "here": "这里",
+      "bindMobile": "绑定手机号码",
+      "phoneDesc": "请放心，我们不会泄露任何用户信息，以及发送骚扰信息。"
+    },
+    "email": {
+      "editEmail": "修改邮箱",
+      "verifyEmail": "验证原邮箱",
+      "addEmail": "设定新邮箱",
+      "plsEnterEmail": "请输入邮箱地址",
+
+      "bindEmail": "綁定郵箱地址",
+      "toEdit": "要修改邮箱地址，请点击",
+      "here": "这里"
+    },
+    "qq": {
+      "msgInvalidQQ": "QQ账号格式不正确",
+      "plsEnterQQ": "请输入QQ账号",
+      "qqAccount": "QQ账号"
+    },
+    "wechat": {
+      "msgInvalidWeChat": "微信账号格式不正确",
+      "plsEnterWechat": "请输入微信账号",
+      "weChatAccount": "微信账号"
+    },
+    "resetResetWithdrawalPassword": {
+      "title": "修改提款密码",
+      "editWithdrawalPassword": "修改提款密码",
+      "bindMobile": "绑定手机号码",
+      "verifiedOriPhone": "验证手机号码",
+      "verifiedEmail": "验证邮箱地址",
+      "setNewWithdrawalPassword": "设定新提款密码",
+      "resetSuccess": "提款密码修改成功"
+    },
+    "changeWithdrawalPassword": {
+      "title": "提款密码",
+      "subTitle": "提款密码",
+      "oldPassword": "旧密码",
+      "newPassword": "新密码",
+      "confirmNewPassword": "确认新密码",
+      "plsEnterOldPassword": "请输入旧密码"
+    },
+
+    "withdrawalPassword": {
+      "msgInvalidConPass": "两次输入的密码不一致",
+      "title": "提款密码",
+      "newPass": "提款密码",
+      "msgEnterNewPass": "请输入提款密码",
+      "conPass": "确认提款密码",
+      "msgEnterConPass": "请输入确认提款密码",
+      "setWithdrawalPassword": "设置提款密码",
+      "settledWithdrawalPassword": "您的提款密码已经设定，请妥善保管。"
+    }
+  },
+  "report": {
+    "title": "报表",
+    "transferDetails": "转换记录",
+    "withdrawalDetails": "提现记录",
+    "depositDetails": "充值记录",
+    "bettingDetails": "投注记录",
+    "rebateDetails": "返水记录",
+    "platform": "平台",
+    "date": "日期",
+    "gamename": "游戏名称",
+    "startDate": "开始时间",
+    "endDate": "结束时间",
+    "today": "今天",
+    "oneWeek": "1週",
+    "oneMonth": "1个月",
+    "all": "全部",
+    "status": "状态",
+    "RequestDate": "申请时间",
+    "submitDate": "提交时间",
+    "transferOut": "转出",
+    "transferIn": "转入",
+    "OrderNumber": "订单号",
+    "depositChannel": "付款方式",
+    "withdrawal": {
+      "bankCard": "银行卡",
+      "status1": "等待付款",
+      "status2": "审批中",
+      "status3": "已通过",
+      "status4": "已拒绝"
+    },
+    "deposit": {
+      "status1": "等待付款",
+      "status2": "审批中",
+      "status3": "已通过",
+      "status4": "已拒绝"
+    },
+    "rebate": {
+      "sn": "编号",
+      "cycleDate": "周期日",
+      "validBet": "有效金额",
+      "amount": "返水金额"
+    },
+    "transfer": {
+      "title": "转账记录",
+      "table": {
+        "from": "从",
+        "to": "至"
+      }
+    },
+    "dateTime": "时间",
+
+    "betDateTime": "投注时间",
+    "betid": "单号",
+    "amount": "金额",
+    "betAmount": "投注金额",
+    "totalBet": "总投注",
+    "validBet": "有效投注",
+    "betContent": "投注內容",
+    "turnover": "流水",
+    "winloss": "输赢",
+    "ratio": "赔率"
+  },
+  "share": {
+    "bottomNote": {
+      "pleaseContact": "如有任何问题，请联系",
+      "liveChat": "线上服务"
+    },
+    "messageDialog": {
+      "info": "提示"
+    }
+  },
+  "slot": {
+    "hotGame": "热门游戏",
+    "allGame": "全部游戏",
+    "newGame": "最新游戏",
+    "bookmarkGame": "收藏游戏",
+    "historyGame": "历史游戏",
+    "recommendGame": "推荐游戏",
+    "fullscreen": "全屏",
+    "search": "搜索关键字",
+    "all": "全部"
+  },
+
+  "transfer": {
+    "autoTransfer": "自动转帐：开启游戏时，将所有余额自动转入游戏",
+    "on": "开",
+    "off": "关",
+    "transferWallet": "转账钱包",
+    "quickTransfer": "快速转账",
+    "invalidAmount": "金额有误",
+    "insufficient": "您的余额不足",
+    "transferSuccess": "转账成功",
+    "msgUnderMaintenance": "维修中请销后再试",
+    "refresh": "刷新",
+    "title": "转账",
+    "totalFund": "玩家总资金",
+    "mainAccount": "中心钱包",
+    "oneKeyReceive": "一键回收",
+    "oneKeyTransfer": "一键转入",
+    "maintenance": "维护中",
+    "transferFrom": "请选择转出钱包",
+    "transferFromWallet": "转出钱包",
+    "pleaseSelect": "请选择",
+    "transferTo": "请选择转入钱包",
+    "transferToWallet": "转入钱包",
+    "msgEnterAmount": "请输入转帐金额",
+    "maxAmount": "最大金额",
+    "transfer": "转账",
+    "noticeTitle": "温馨提示",
+    "msgFailedTransfer": "转账失败"
+  },
+
+  "withdrawal": {
+    "msgInvalidAmt": "提款金额 必须大于 0",
+    "msgCanWithdrawal": "您可的可提款余额为：{{amount}}",
+    "msgEnterWithdrawalPass": "请输入提款密码",
+    "msgInsufficient": "中心钱包余额不足",
+    "msgSuccess": "您的提款請求已成功提交, 请耐心等待确认",
+    "title": "提款",
+    "limitDeposit": "单笔限额",
+    "canWithdrawal": "可提资金",
+    "checkDetails": "查看详情",
+    "manageBank": "管理银行卡",
+    "bankCard": "銀行卡",
+    "msgEnterBank": "请选择银行卡",
+    "tail": "尾号",
+    "enterAmount": "请输入提款金额",
+    "msgWithdrawalAmount": "单笔限额 100-450,000",
+    "notice": "此银行卡的开户名必须与您账号所填写真实姓名一致，否则提款可能失败",
+    "receiverAcc": "收款账号",
+    "receiverName": "收款人姓名",
+    "fee": "手续费",
+    "receiverAmount": "到账金额"
+  },
+  "promotion": {
+    "emptyLine1": "目前尚未有活动",
+    "emptyLine2": "请敬请期待",
+    "moreInfo": "更多资讯",
+    "startDate": "开始时间：",
+    "endDate": "结束时间：",
+    "title": "优惠活动",
+    "promoType": "优惠种类",
+    "promoTarget": "优惠对象",
+    "promoDetail": "优惠条件",
+    "promoDate": "优惠时间",
+    "joinPromo": "参加优惠",
+    "joinSuccess": "参加优惠活动成功",
+    "promoJoint": "参加优惠已参加！",
+    "details": "详情"
+  },
+  "web": {
+    "home": {
+      "Section1Chess": "棋牌游戏",
+      "Section1Slot": "老虎机",
+      "Section1Lottery": "彩票游戏",
+      "Section1Fishing": "捕鱼游戏",
+      "Section1Sport": "体育电竞",
+      "Section1Electron": "电子游戏"
+    },
+    "liveGame": {
+      "wmDesc": "以高规格打造的WM真人配备最先进的设备以及富丽堂皇的装潢，为玩家打造绝佳真人视讯游戏体验。",
+      "saDesc": "SA真人视讯为亚博集团官方直营，最美荷官在线互动，带您玩转百家乐、骰宝、轮盘、炸金花等多款真人视讯游戏，国际标准、公平公正，极致享受。",
+      "bgDesc": "超高清视频、完美主播音质等等，让可爱的性感女主播与玩家亲密互动、提供让人着迷的游戏体验！",
+      "abDesc": "ALLBET主打的24小时运营的直播在线视频类游戏，让玩家拥有身临其境的感觉， 多款热门游戏让玩家随时随地享受游戏的快感。",
+      "vgDesc": "先进的产品和平台可提供当今市场上最真实游戏体验。甚至无需离开家，体验真正赌场所有的刺激感。"
+    },
+    "lotteryGame": {
+      "vrDesc": "VR彩票为您提供最便捷丰富的彩票新玩法，精彩绝伦的交互体验，开启彩票新纪元。 ",
+      "bgDesc": "BG彩票打造着高品质游戏体验、不断地求新求变，秉持最好的服务，超百种彩票玩法任您赢！",
+      "kmDesc": "专注于彩票游戏行业多年，拥有经典彩种、玩法。还有极易操作的游戏界面，更是在您游戏过程中增光添彩！"
+    },
+    "chessGame": {
+      "kyDesc": "抢庄牛牛龙虎斗，多款棋牌任君选！棋牌彰显胸怀，竞技娱乐烧脑，好友相约竞技，游戏改变生活"
+    },
+    "slotGame": {
+      "btnStart": "马上开始",
+      "btnTrial": "免费试玩",
+      "btnBookmark": "收藏",
+      "keyword": "关键字",
+      "search": "搜索",
+      "recommendedGame": "推荐游戏",
+      "more": "更多",
+      "famousGame": "大家都在玩",
+      "rtpRank": "返奖率排名"
+    },
+    "header": {
+      "announcement": "公告",
+      "promotion": "最近优惠",
+      "mobver": "手机端",
+      "plsClick": "请按",
+      "bookmark": "收藏网站",
+      "addBookmark": "加入收藏",
+      "transfer": "转账",
+      "deposit": "存款",
+      "mainAccount": "总资金：",
+      "dollor": "元",
+      "logout": "登出",
+      "welcomBack": "欢迎您回来，"
+    },
+    "rightNavBar": {
+      "wallet": "资金中心",
+      "codeTitle": "APP下载",
+      "cs": {
+        "csDesc": "在线客服",
+        "contact": "联系电话"
+      }
+    },
+    "marquee": {
+      "latestNews": "最新公告："
+    },
+    "footer": {
+      "footerDescTitle": "合作伙伴",
+      "footerDescText": "无论你想玩些什么，{brand} 的合作伙伴都会让你的游戏体验更加美好",
+      "paymentTitle": "支付·牌照",
+      "cautionText": "未满18岁的人士进行博彩属非法行为，{brand}会在此方面绝对严格执行。我们会对客户进行年龄验证，并可能要求其上交补充档",
+      "appDownload": "APP下载",
+      "appDownloadLine2": "随时随地 最佳体验",
+      "wapQRCodeDesc": "手机免下载访问",
+      "appQRCodeDesc": "APP扫码下载",
+      "affiliateCampaign": "代理加盟共创辉煌",
+      "affiliateCampaignLine2": "100%加奖佣金计划",
+      "customerServiceHotline": "国内24小时客服热线",
+      "contactUs": "联系我们",
+      "contactNumber": "服务电话:400-120-8118",
+      "contactEmail": "联系邮箱:cs@{brand}.com",
+
+      "copyright": "本网站属于（PAGCOR）Philippine Amusement and Gaming Corporation授权和监管",
+      "copyrightLine2": "{brand} Copyright© 2020 {brand} Casino Co.Group All Rights Reserved"
+    },
+    "login": {
+      "login": "登录",
+      "loginTitle": "登录您的账户",
+      "loginTitleLine2": "亚洲最佳博彩网站",
+      "newRegister": "新用户注册",
+
+      "rememberMe": "记住用户名",
+      "forgetPass": "忘记密码?",
+      "cs": "登录如有问题，请及时",
+      "contactus": "联系我们",
+      "btn": "立即登录",
+      "footerDesc": "本网站采用Global Trust 最先进的128/256 bit SSL服务",
+      "controlTitle": "责任博彩",
+      "controlDesc": "您已设定自我控制，账户将在",
+      "controlText": "后解锁",
+      "errorMsg": {
+        "emptyUsername": "用户名不能为空",
+        "emptyPassword": "密码不能为空"
+      }
+    },
+    "register": {
+      "registerTitle": "注册您的账户",
+      "registerTitleLine2": "亚洲最佳博彩网站",
+      "username": "请输入用户名 (6-32位英文或数字)",
+      "password": "请输入密码 (6-20位大小写英文，数字或特殊符号)",
+      "confirmPassword": "重复密码",
+      "withdrawalPassword": "请输入提款密码 (6位数字)",
+      "confirmWithdrawalPassword": "重复提款密码",
+      "promoteCode": "邀请码（选填）",
+      "contract": "我确认我已年满18岁，并已阅读和接受本网站的策略丶隐私声明，条款及条件。",
+      "btn": "立即注册"
+    },
+    "resetPassword": {
+      "title": "重置密码",
+      "oldPassword": "旧密码",
+      "newPassword": "新密码",
+      "confirmNewPassword": "确认新密码",
+      "resetSuccess": "密码重置成功"
+    },
+
+    "account": {
+      "fund": "资金管理",
+      "personal": "个人账户",
+      "deposit": "存款",
+      "withdrawal": "提款",
+      "transfer": "转账",
+      "report": "报表",
+      "profile": "个人资料",
+      "inbox": "消息中心",
+      "affiliate": "推广赚钱",
+      "header": {
+        "lastLogin": "上次登陆时间",
+        "total": "玩家总资金",
+        "mainWallet": "中心钱包",
+        "allGameWallet": "转帐钱包"
+      },
+      "msgCenterAcc": {
+        "inbox": "收件箱",
+        "noMsg": "暂无信息",
+        "errorMsg": "尚未选取任何消息",
+        "tickAll": "全选",
+        "delete": "删除",
+        "markAsRead": "标记为已读"
+      }
+    },
+
+    "download": {
+      "titleDesc": "触手可及的信息，从指尖到脑海，存取转安全便捷。真人娱乐，体育投注，电子游艺等尽在一手掌握。{brand}力求给每一位用户呈现别样、缤纷的极致体验。",
+      "supportPlatform": "(支持Android/iOS)",
+      "pcDownload": "手机免下载访问",
+      "mobileDownload": "APP扫码下载"
+    },
+
+    "maintenance": {
+      "title": "抱歉，系统维护中",
+      "maintenance": "维护中",
+      "maintenancePeriod": "维护时间：",
+      "desc": "为了您更好的体验游戏，我们一直在努力",
+      "descText": "如有疑问，请及时联系在线客服。",
+      "btn": "联系我们"
+    }
+  },
+  "PrimePay": "一等付",
+  "LeePay": "利付钱包",
+  "ApplePay": "苹果支付",
+  "Manual": "手动存款",
+  "Crypto": "虚拟币",
+  "BankTransfer": "银行转账",
+  "CustomBank": "自定银行",
+  "VR": {
+    "lottery": "VR彩票",
+    "desc": "VR奖源一直以“公正、安全、快速、精准”处于行业领先地位，拥有人工智能的全方位系统主流彩种应有尽有，主要分为「VR视讯彩」、「VR品牌彩票」等。亦在积极开发「VR电子」系列游戏，立志给予客户更多样化的选择。VR将持续创造进步，为大众推出更多的新彩种，创造一个全方位的娱乐环境。"
+  },
+  "KY": {
+    "chess": "开元棋牌",
+    "desc": "抢庄牛牛龙虎斗，多款棋牌任君选！棋牌彰显胸怀，竞技娱乐烧脑，好友相约竞技，游戏改变生活",
+    "BankerNiuNiu": "抢庄牛牛",
+    "GoldenFlower": "炸金花",
+    "The21Point": "21点",
+    "SanGong": "三公",
+    "fish": "KY捕鱼"
+  },
+  "sports": {
+    "desc": "PG 包网提供您创新且多样化的玩法和高赔率的赛事转播，与随时随地使用各式设备，让您能轻松、快速、且安全下注，再加上丰富的体育赛事投注包括足球、篮球、棒球、网球、美式足球、电竞等，以满足各项的体育竞技热爱者的需求！"
+  },
+  "esports": {
+    "desc": "IM电子竞技有顶尖的技术支持，还拥有令人惊叹的视觉界面及高效的用户体验。即刻透过【PG】包网平台，体验轻松投注电子竞技的乐趣吧!"
+  },
+  "services": {
+    "depositTitle": "极速存取转款",
+    "deposit": "最新技术自主研发的财务处理系统真正做到极速存、取、转独家网络优化技术，为您提供一流的游戏体验，最大优化网络延迟。",
+    "securityTitle": "加密安全管理",
+    "security": "独家开发，采用128位加密技术和严格的安全管理体系，客户资金得到最完善的保障，让您全情尽享娱乐、赛事投注、无后顾之忧！",
+    "oddsTitle": "海量赛事种类",
+    "odds": "每天为您提供近千场精彩体育赛事，更有真人、彩票、电子游戏等多种娱乐方式选择，让您拥有完美游戏体验。",
+    "platformTitle": "三端任您选择",
+    "platform": "引领市场的卓越技术，自主研发了全套终端应用，让您畅享Web、H5，更有iOS、Android原生APP，让您随时随地，娱乐投注! 7x24小时在线客服提供最贴心，最优质的服务"
+  },
+  "AG": {
+    "name": "AG真人",
+    "live": "AG真人"
+  },
+  "BG": {
+    "name": "BG真人",
+    "live": "BG真人",
+    "fish": "BG捕鱼"
+  },
+  "SG": {
+    "name": "Sexy真人",
+    "live": "Sexy真人"
+  },
+  "SW": {
+    "live": "SW真人",
+    "slots": "SW老虎机",
+    "electron": "SW电子"
+  },
+  "SBO": {
+    "sports": "SBO体育"
+  },
+  "IMES": {
+    "sports": "IM电竞"
+  },
+  "SABA": {
+    "sports": "沙巴体育"
+  },
+  "HABA": {
+    "slots": "HABANERO",
+    "electron": "HABANERO",
+    "fish": "HABANERO"
+  },
+  "JDB": {
+    "slots": "JDB",
+    "fish": "JDB捕鱼"
+  },
+  "PP": {
+    "slots": "PP老虎机",
+    "electron": "PP电子"
+  },
+  "EVO": {
+    "live": "EVO真人",
+    "slots": "EVO老虎机"
+  },
+  "AB": {
+    "live": "Allbet真人"
+  },
+  "RT": {
+    "slots": "RedTiger老虎机"
+  },
+  "NT": {
+    "slots": "Netent老虎机"
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "lang": {
+    "language": "Language",
+    "zh-TW":"繁体",
+    "zh-CN":"简体",
+    "en-US":"English",
+    "th-TH":"ไทย",
+    "id-ID":"Indonesia",
+    "vi-VN":"Tiếng Việt"
+  },
+  "error": {
+    "ERR101": "Invalid credential.",
+    "ERR201": "Player not found.",
+    "ERR202": "Player is disabled.",
+    "ERR401": "Please check your input."
+  },
+
+  "panel": {
+    "im": "IM",
+    "cs": "Live Chat",
+    "imLong": "Instant Messaging",
+    "liveChatWelcome": "[Live Chat] Welcome You!",
+    "liveChatDescription": "Please select your question type to speed up the service!",
+    "liveChatOptionFund": "Fund",
+    "liveChatOptionBall": "Sports ",
+    "liveChatOptionLive": "Live",
+    "liveChatOptionLottery": "Lottery",
+    "liveChatOptionRegister": "Register",
+    "liveChatOptionSlot": "Slot"
+  },
+
+  "support": {
+    "contactnow": "Contact Now",
+    "online": "Online Support",
+    "contact": "Contact",
+    "qr": "QR Support",
+    "join": "Join"
+  },
+
+  "common": {
+    "title": "{brand} | The Biggest & Most Trusted Online Casino",
+    "register": "Register",
+    "login": "Login",
+    "submit": "Submit",
+    "back": "Back",
+    "confirm": "Okay",
+    "check": "Check Info",
+    "nextStep": "Next Step",
+    "more": "See More",
+    "send": "Send",
+    "choose": "Choose",
+    "complete": "Complete",
+    "close": "Close",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "search": "Search",
+    "verified": "Verify",
+    "configured": "Configured",
+    "phoneNumber": "Phone Number",
+    "btnTokenLabel": "Get Code",
+    "token": "Verify code",
+    "btnTokenResendLabel": "Resend",
+    "msgInvalidInvitationCode": "Invalid invitation code.",
+    "msgSendToken": "Send Code",
+    "msgTokenSent": "Verify Code Sent Successfully",
+    "msgTokenVerified": "Verified",
+    "msgEnterPhone": "Phone Number",
+    "msgEnterEmail": "Email Address",
+    "msgInvalidEmail": "Invalid Email Address",
+    "msgEnterCode": "Please enter verify code",
+    "msgEnterEmailCode": "Email Verify Code",
+    "msgEnterPhoneCode": "Phone Verify Code",
+    "msgInvalidPhoneCode": "Invalid Verify Code",
+    "msgInvalidConfirmPass": "Invalid Confirm Password",
+    "msgInvalidOldPass": "Invalid Old Password",
+    "msgRegisterUserNameInvalid": "The account length must be between 6 and 32 digits, and must consist of numbers, letters or a combination",
+    "msgRegisterPassInvalid": "The password length must be between 6 and 20 digits",
+    "msgRegisterPassMatchInvalid": "The password must be the same as the confirmed password",
+    "msgRegisterTermAndCondition": "Please confirm you’ve read our terms and conditions",
+    "msgRegisterWithdrawalPassInvalid": "The withdrawal password should be 6 digits",
+    "msgRegisterWithdrawalPassMatchInvalid": "The withdrawal password must be the same as the confirmed withdrawal password",
+    "msgAlreadyExist": "Username Already Exist",
+    "emailAddress": "Email Address",
+    "qqNumber": "QQ Account",
+    "wechatNumber": "Wechat Account",
+    "receiverAddress": "Receiver Address",
+    "loginPassword": "Login Password",
+    "contact": "Contact",
+    "customerService": "Customer Service",
+    "withdrawalPassword": "Withdrawal Password",
+    "securityQuestion": "Security Question",
+    "realName": "Real Name",
+    "teamVP": "Virtus.pro",
+    "teamFrankfurt": "Frankfurt",
+    "g2Esport": "G2 Esports",
+    "amount": "Amount",
+    "support": "If you have any questions, please feel free to",
+    "contactus": " Contact Us",
+    "comingSoon": "Coming Soon",
+    "sports": "Sportsbook",
+    "esports": "eSports",
+    "live": "Live Casino",
+    "lottery": "Lottery",
+    "chess": "Card Game",
+    "slot": "Slot",
+    "electron": "E-Game",
+    "fish": "Fishing",
+    "promotion": "Promotion",
+    "download": "Download",
+    "home": "Home",
+    "member": "member",
+    "csPhoneNumber": "000-000-0000",
+    "bank": "Bank",
+    "dollor": "Yuan",
+    "copy": "Copy",
+    "reload": "Reload",
+    "msgPopupBlocker": "pop-up blocked, please allow it",
+    "username": "Username",
+    "password": "Password",
+    "msgEnterUserName": "Please enter username",
+    "msgEnterPassword": "Please enter password",
+    "deposit": "Deposit",
+    "withdrawal": "Withdraw",
+    "transfer": "Transfer",
+    "info": "Info",
+    "update": "Update",
+    "reset": "Reset",
+    "msgEnterNewPass": "Enter New Password",
+    "NewPass": "New Password",
+    "msgEnterOldPass": "Enter Old Password",
+    "oldPass": "Old Password",
+    "msgEnterConfirmPass": "Enter Confirm Password",
+    "ConfirmPass": "Confirm Password",
+    "language": "Language",
+    "startGame": "START",
+    "cs": "CHAT",
+    "msgSuccessUpdateProfile": "Profile Update successful",
+    "joinGame": "Enter",
+    "withdrawalBankType": "Type",
+    "withdrawalChannel": "Channel",
+    "withdrawalNumber": "Bank card number/Crypto currency address",
+    "msgEnterWithdrawalNumber": "Please enter bank card number/crypto currency address",
+    "msgEmailExist": "Email address already exists",
+    "msgRequiredTurnover": "Withdrawal unavailable. Please make sure you meet the wagering requirements, or contact Customer Service for further information.",
+    "msgInvalidUsername": "Invalid username/ password.",
+    "msgInvalidWithdrawalPassword": "Invalid withdrawal password",
+    "msgRequestFailed": "Request failed, please contact Customer Service for further information."
+  },
+  "affiliate": {
+    "title": "Promote",
+    "details": "Details",
+    "downline": "Downline",
+    "report": "Report",
+    "info": "Info",
+    "qrCode": "QRCode",
+    "promoId": "Promo ID",
+    "promoLink": "Promo Link",
+    "memberName": "Member Name",
+    "UUID": "UUID",
+    "dateTime": "DateTime",
+    "transAmount": "Turnover",
+    "commission": "Commission",
+    "status": "Status",
+    "copied": "Copied"
+  },
+  "card": {
+    "title": "Manage Bank Card",
+    "myCard": "Card",
+    "tail": "Last 4 Digits",
+    "transferRecord": "Transaction",
+    "removeCard": "Remove Card",
+    "checkDetails": "Check",
+    "remove": "Remove",
+    "msgSlideToDelete": "Slide To Delete Bank Card",
+    "msgAddCard": "Add Bank Card",
+    "msgAddCardDesc": "After adding a bank card, it can use to withdraw money, up to 3 cards.",
+    "addCard": {
+      "title": "Add Bank Card",
+      "subTitle": "Bank card number must be 15-19 digits",
+      "msgSelectBank": "Please select bank",
+      "BankName": "Bank name",
+      "msgEnterBankName": "Please enter bank name",
+      "BankAccountName": "Bank account name",
+      "msgEnterBankAccountName": "Please enter bank account name",
+      "msgEnterCard": "Enter Card Number",
+      "cardHolder": "Card Holder",
+      "msgEnterCardHolder": "Enter Card Holder Name",
+      "cardNum": "Card Number",
+      "desc": "Information is encrypted",
+      "branch": "Branch",
+      "branchPlaceHolder": "Please Enter Bank Branch"
+    },
+    "success": {
+      "title": "Add bank card successfully",
+      "successDesc": "Congratulations that you have completed the bank card binding. You can quickly select your bank card when you withdraw later. If you want to bind other bank cards,",
+      "bindDesc": "Please click “Bind Other Bank Cards” below to perform the operation again.",
+      "reminder": "Reminder",
+      "callHotline": "Or call 000-000-0000 for help.",
+      "bindBankCard": "Bind Other Bank Card",
+      "goWithdrawal": "Go to Withdraw"
+    }
+  },
+  "deposit": {
+    "title": "Deposit",
+    "plsEnterDepositAmount": "Please Enter Deposit Amount",
+    "msgMinDeposit": "At least recharge {{amount}} above ",
+    "msgMaxDeposit": "The deposit amount is greater than the maximum limit set by the company",
+    "msgMaintenance": "Deposit system maintenance, please try again later ...",
+    "paymentTunnel": "Tunnel",
+    "msgEnterCard": "Enter a Bank Card",
+    "bankCard": "Bank Card",
+    "msgPleaseEnter": "Please Enter ",
+    "dollor": "Yuan",
+    "depositAmount": "Deposit Amount",
+    "chooseAmount": "Please Select Amount",
+    "limitDeposit": "Single Limit",
+    "reminderTitle": "Reminder：",
+    "orderNumber": "Order Number",
+    "completeDeposit": "Complete Deposit",
+    "confirmRedirect": "Will jump out of this site and go to the payment platform",
+    "depositMethod": "Payment type",
+    "depositTunnel": "Payment channel",
+    "promotion": "Promotion ",
+    "msgPlsSelectPromotion": "Please select promotion",
+    "senderName": "Sender Username",
+    "uploadSuccess": "Receipt uploaded successfully, please wait for verification.",
+    "cancelDeposit": "Deposit canceled successfully.",
+    "uploadReceipt": "Receipt",
+    "msgPlsSelectFile": "Please select file to upload",
+    "upload": "Upload",
+    "cancel": "Cancel",
+    "qrDesc": "Scan and pay",
+    "receiverBank": "Receiver Bank",
+    "receiverAccount": "Receiver Bank Account",
+    "receiverNumber": "Receiver Bank Number",
+    "msgDialog": "Pop-up windows has been blocked, please re-open it manually",
+    "msgPlsSelectPayment": "Please select the payment type",
+    "msgPlsSelectMethod": "Please select the payment channel",
+    "msgPlsEnterAccount": "Please enter the bank account name",
+    "msgInvalidFileSize": "File too Big, please select a file less than 2mb",
+    "msgInvalidFileType": "Please upload image file only. (.jpg/.jpeg/.png/.tiff)",
+    "msgFailedJoinPromotion": "You can not register this promition. Please contact Customer Service if you need further information.",
+    "exchangeRate": "Exchange Rate",
+    "buyPrice": "Buy",
+    "sellPrice": "Sell",
+    "expectedPayment": "Expected Amount",
+    "details": {
+      "bank": "Bank",
+      "account": "Account",
+      "accountNum": "Account Number",
+      "failedOrder": "Your order has expired",
+      "failedOrderDesc": "Please regenerate the order before depositing",
+      "msgDepositValidDate": "Validity Period",
+      "hour": "Hour",
+      "minute": "Minute",
+      "second": "Secound",
+      "cancelOrder": "Cancel",
+      "orderVerify": "Verify"
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "plsEnterPhoneNumber": "Please enter phone number",
+    "invalidConfirmPass": "Invalid Confirm Password",
+    "updateSuccess": "Password reset successful."
+  },
+  "inbox": {
+    "title": "Message Center",
+    "manage": "Edit",
+    "markAsRead": "Mark As Read",
+    "dateTime": "Date Time",
+    "type": "Type",
+    "inboxTitle": "Title",
+    "details": "Details"
+  },
+  "wap": {
+    "login": {
+      "browse": "Look around",
+      "rememberMe": "Remember Me",
+      "forgetPass": "Forgot Password"
+    },
+    "register": {
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "withdrawalPassword": "Withdrawal Password",
+      "confirmWithdrawalPassword": "Confirm Withdrawal Password",
+      "promoteCode": "Promote Code"
+    },
+    "main": {
+      "homePage": "Home",
+      "promo": "Promotion",
+      "cs": "Live Chat",
+      "my": "Profile",
+      "account": {
+        "mainAccount": "Main Account：",
+        "totalFund": "Total Fund：",
+        "accountReport": "Account Report",
+        "betReport": "Bet Report",
+        "transferReport": "Transfer Report",
+        "personalInfo": "Personal Info",
+        "manageBank": "Manage Card",
+        "inbox": "Inbox",
+        "affiliate": "Affiliate",
+        "question": "Question",
+        "appDownload": "APP Download",
+        "setting": "Setting",
+        "signout": "Logout"
+      },
+      "home": {
+        "gameTab": {
+          "sports": "Sport",
+          "esports": "E-Sport",
+          "live": "Live",
+          "lottery": "Lotto",
+          "chess": "Card Game",
+          "electron": "E-Game",
+          "slot": "Slot",
+          "fish": "Fishing"
+        },
+        "profile": {
+          "announcement": "An.",
+          "welcomeBack": "Welcome back, ",
+          "pleaseLogin": "Please login...",
+          "profile": "PROFILE",
+          "mainAccount": "Balance",
+          "loginRegister": "Login/Reg"
+        }
+      },
+      "bottomNavigation": {
+        "homePage": "Home",
+        "promo": "Promo",
+        "customerService": "Customer Service",
+        "profile": "My"
+      },
+      "menuDrawer": {
+        "deposit": "Deposit",
+        "withdrawal": "Withdrawal",
+        "transfer": "Transfer",
+        "transReport": "Transfer Report",
+        "betReport": "Bet Report",
+        "withdrawalReport": "Withdrawal Report",
+        "depositReport": "Deposit Report",
+        "bankCard": "Manage Card",
+        "inbox": "Inbox"
+      }
+    }
+  },
+
+  "profile": {
+    "setted": "Configured",
+    "setNow": "Configure now",
+    "edit": "Update",
+    "notSet": "Not Set",
+    "notVerify": "Not Verify",
+    "nowVerify": "Verify Now",
+    "title": "Personal Information",
+    "basicInfo": "Basic Information",
+    "otherInfo": "Other Information",
+    "securityInfo": "Security Center",
+    "accInfo": "Account Information",
+    "details": "Details",
+    "phoneVerification": "Phone Verification",
+    "emailVerification": "Email Verification",
+    "msgPlsBindEmailAddress": "Please bind email address",
+    "changePassword": {
+      "msgConfirmPassFail": "Confirm Password Wrong",
+      "editPassword": "Edit Password",
+      "title": "Edit Password",
+      "msgEnterOriPass": "Enter Password",
+      "OriPass": "Original Password"
+    },
+    "changePhone": {
+      "title": "Change",
+      "step1Title": "Verify Original Phone",
+      "step2Title": "Set New Phone"
+    },
+
+    "nameVerify": {
+      "title": "Real Name",
+      "msgEnterICNum": "Enter IC number",
+      "icNum": "IC Number",
+      "msgInvalidICNum": "Invalid IC number",
+      "msgPlsEnterName": "Please enter your real name",
+      "msgPlsEnterICNum": "Please enter your IC number",
+      "toEdit": "If Required to Edit Real Name, Please Contact ",
+      "verifyName": "Real Name Verify",
+      "tips": "Tips:  Real name needs same as withdrawal card name to withdraw money"
+    },
+    "password": {
+      "title": "Login Password",
+      "settledLoginPassword": "Your login password has been set, please keep it safe."
+    },
+    "bankCard": {
+      "title": "Bank Card",
+      "settledBankCard": "Your bank card has been set, please keep it safe.",
+      "limitedWithdraw": "Available withdrawal balance is: ",
+      "biggerThanZero": "Withdrawal amount must be greater than 0"
+    },
+    "phone": {
+      "title": "Mobile",
+      "toEdit": "If Required To Edit Mobile, Please Click ",
+      "here": "Here",
+      "bindMobile": "Bind Mobile Number",
+      "phoneDesc": "Please be assured that we will not disclose any user information"
+    },
+    "email": {
+      "editEmail": "Modify email",
+      "verifyEmail": "Verify email",
+      "addEmail": "Setup email",
+      "plsEnterEmail": "Please enter email address",
+
+      "bindEmail": "Bind Email Address",
+      "toEdit": "If Required To Edit Email, Please Click ",
+      "here": "Here"
+    },
+    "qq": {
+      "msgInvalidQQ": "Invalid QQ account",
+      "plsEnterQQ": "Please enter QQ account",
+      "qqAccount": "QQ Account"
+    },
+    "wechat": {
+      "msgInvalidWeChat": "Invalid WeChat account",
+      "plsEnterWechat": "Please enter WeChat account",
+      "weChatAccount": "WeChat"
+    },
+    "resetResetWithdrawalPassword": {
+      "title": "Reset Withdrawal Password",
+      "editWithdrawalPassword": "Edit Withdrawal Password",
+      "bindMobile": "Mobile Number",
+      "verifiedOriPhone": "Verify Phone",
+      "verifiedEmail": "Verify Email",
+      "setNewWithdrawalPassword": "Edit Withdrawal Password",
+      "resetSuccess": "Withdrawal password reset successful"
+    },
+    "changeWithdrawalPassword": {
+      "title": "Withdrawal Password",
+      "subTitle": "Withdrawal Password",
+      "oldPassword": "Old Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "plsEnterOldPassword": "Please enter old password"
+    },
+
+    "withdrawalPassword": {
+      "msgInvalidConPass": "Confirm Password was not match",
+      "title": "Withdrawal Password",
+      "newPass": "withdrawal password",
+      "msgEnterNewPass": "Please enter withdraw password",
+      "conPass": "confirm withdrawal password",
+      "msgEnterConPass": "Please enter confirm password",
+      "setWithdrawalPassword": "Set Withdrawal Password",
+      "settledWithdrawalPassword": "Your withdrawal password has been set, please keep it safe."
+    }
+  },
+  "report": {
+    "title": "Report",
+    "transferDetails": "Transfer",
+    "withdrawalDetails": "Withdrawal",
+    "depositDetails": "Deposit",
+    "bettingDetails": "Bet History",
+    "gamename": "Game Name",
+    "rebateDetails": "Rebate",
+    "platform": "Platform",
+    "date": "Date",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "today": "Today",
+    "oneWeek": "1 Week",
+    "oneMonth": "1 Month",
+    "all": "All",
+    "status": "Status",
+    "RequestDate": "Request Date",
+    "submitDate": "Submit Date",
+    "transferOut": "Transfer Out",
+    "transferIn": "Transfer In",
+    "OrderNumber": "Order Number",
+    "depositChannel": "Channel",
+    "withdrawal": {
+      "bankCard": "Bank Card",
+      "status1": "Waiting Payment",
+      "status2": "Review",
+      "status3": "Approved",
+      "status4": "Rejected"
+    },
+    "deposit": {
+      "status1": "Waiting Payment",
+      "status2": "Review",
+      "status3": "Approved",
+      "status4": "Rejected"
+    },
+    "rebate": {
+      "sn": "SN",
+      "cycleDate": "Cycle day",
+      "validBet": "Valid Bet",
+      "amount": "Rebate"
+    },
+    "transfer": {
+      "title": "Transfer Record",
+      "table": {
+        "from": "From",
+        "to": "To"
+      }
+    },
+    "dateTime": "Time",
+    "betid": "ID",
+    "betDateTime": "Bet Time",
+    "amount": "Amount",
+    "betAmount": "Bet Amount",
+    "totalBet": "Total Bet",
+    "validBet": "Valid Turnover",
+    "betContent": "Bet Content",
+    "turnover": "Turnover",
+    "winloss": "Win Loss",
+    "ratio": "Ratio"
+  },
+  "share": {
+    "bottomNote": {
+      "pleaseContact": "If you have any questions please click here ",
+      "liveChat": "live chat"
+    },
+    "messageDialog": {
+      "info": "Info"
+    }
+  },
+  "slot": {
+    "hotGame": "Hot Games",
+    "allGame": "All Games",
+    "newGame": "New Games",
+    "bookmarkGame": "Bookmark",
+    "historyGame": "History",
+    "recommendGame": "Recommend",
+    "fullscreen": "Fullscreen",
+    "search": "Search keyword",
+    "all": "All"
+  },
+
+  "transfer": {
+    "autoTransfer": "Auto Transfer",
+    "on": "ON",
+    "off": "OFF",
+    "transferWallet": "Transfer Wallet",
+    "quickTransfer": "Quick Transfer",
+    "invalidAmount": "Invalid Amount",
+    "insufficient": "Insufficient Amount",
+    "transferSuccess": "Transfer Success",
+    "msgUnderMaintenance": " was under maintenance, try again later",
+    "refresh": "Refresh",
+    "title": "Transfer",
+    "totalFund": "Balance",
+    "mainAccount": "Main Wallet",
+    "oneKeyReceive": "Receive All",
+    "oneKeyTransfer": "Transfer All",
+    "maintenance": "maintenance",
+    "transferFrom": "Transfer From",
+    "transferFromWallet": "Transfer From",
+    "pleaseSelect": "Please Select",
+    "transferTo": "Transfer To",
+    "transferToWallet": "Transfer To",
+    "msgEnterAmount": "Enter Transfer Amount",
+    "maxAmount": "Max Amt",
+    "transfer": "Transfer",
+    "noticeTitle": "Tips",
+    "msgFailedTransfer": "Transfer failed"
+  },
+
+  "withdrawal": {
+    "msgInvalidAmt": "Withdrawal amount must be greater than 0",
+    "msgCanWithdrawal": "Available withdrawal：{{amount}}",
+    "msgEnterWithdrawalPass": "Please Enter Withdrawal Password",
+    "msgInsufficient": "Insufficient balance.",
+    "msgSuccess": "Your withdrawal request has been submitted successfully.",
+    "title": "Withdrawal",
+    "limitDeposit": "Deposit Limit",
+    "canWithdrawal": "Can Withdrawal",
+    "checkDetails": "Details",
+    "manageBank": "Manage Card",
+    "bankCard": "Bank Card",
+    "msgEnterBank": "Please Choose Bank Card",
+    "tail": "",
+    "enterAmount": "Please enter the withdrawal amount",
+    "msgWithdrawalAmount": "Please enter 100-450,000 yuan",
+    "notice": "The account name of this bank card must be consistent with the real name filled in your account, otherwise the withdrawal may fail",
+    "receiverAcc": "Receiver Account",
+    "receiverName": "Receiver Name",
+    "fee": "Fee",
+    "receiverAmount": "Amount"
+  },
+  "promotion": {
+    "emptyLine1": "MORE PROMOTIONS AND ACTIVITIES ARE",
+    "emptyLine2": "COMING SOON!",
+    "moreInfo": "More Info",
+    "startDate": "Start Date: ",
+    "endDate": "End Date: ",
+    "title": "Promotion",
+    "promoType": "Promotion Type",
+    "promoTarget": "Promotion Target",
+    "promoDetail": "Condition",
+    "promoDate": "Promotion time",
+    "joinPromo": "JOIN",
+    "joinSuccess": "Successful participation in promotion activities",
+    "promoJoint": "Promotion activities has participated!",
+    "details": "Details"
+  },
+  "web": {
+    "home": {
+      "Section1Chess": "CHESS GAME",
+      "Section1Slot": "SLOT GAME",
+      "Section1Lottery": "LOTTERY GAME",
+      "Section1Fishing": "FISHING GAME",
+      "Section1Sport": "SPORT GAME",
+      "Section1Electron": "E-GAME"
+    },
+    "liveGame": {
+      "wmDesc": "Exclusive custom interface for asian players, according to the user experience and habits. Extreme interface, extreme game control, unqiue live casino.",
+      "saDesc": "SA Gaming offers casino hot picks including Baccarat and many more. The HTML5-powered games appeal to all types of players with various features such as Multi-Bet and real-time game stats.",
+      "bgDesc": "Big Gaming Live Casino is Asia's most promising live casino brand, offering a wide range of games.",
+      "abDesc": "Allbet offers five distinctive game halls for the Live Streaming service including Dragon Hall, Speed Hall, Multi-play Hall, VIP Hall and BidMe Hall.",
+      "vgDesc": "Advanced products and platforms provide the most authentic gaming experience on the market today."
+    },
+    "lotteryGame": {
+      "vrDesc": "VR Lottery researches and develops different types of lottery particularly the famous hongkong's lottery. ",
+      "bgDesc": "The most comprehensive variety of lottery games and betting methods",
+      "kmDesc": "专注于彩票游戏行业多年，拥有经典彩种、玩法。还有极易操作的游戏界面，更是在您游戏过程中增光添彩！"
+    },
+    "chessGame": {
+      "kyDesc": "No 1 card game. Bull bull,blackjack,poker,dragon tiger and other real playercard game"
+    },
+    "slotGame": {
+      "btnStart": "Start Now",
+      "btnTrial": "Free Game",
+      "btnBookmark": "Bookmark",
+      "keyword": "Keyword",
+      "search": "Search",
+      "recommendedGame": "Recommended Game",
+      "more": "More",
+      "famousGame": "Others are Playing",
+      "rtpRank": "RTP Rank"
+    },
+    "header": {
+      "announcement": "Announcement",
+      "promotion": "Promotion",
+      "mobver": "App",
+      "plsClick": "Please Click",
+      "bookmark": " to bookmark",
+      "addBookmark": "Bookmark",
+      "transfer": "Transfer",
+      "deposit": "Deposit",
+      "mainAccount": "Balance：",
+      "dollor": "",
+      "logout": "Logout",
+      "welcomBack": "Welcome back, "
+    },
+    "rightNavBar": {
+      "wallet": "Fund",
+      "codeTitle": "APP Download",
+      "cs": {
+        "csDesc": "CS",
+        "contact": "Number"
+      }
+    },
+    "marquee": {
+      "latestNews": "News："
+    },
+    "footer": {
+      "footerDescTitle": "AFFILIATES",
+      "footerDescText": "No matter what you want to play, {brand}'s partners will provide you better gaming experience.",
+      "paymentTitle": "Payment and license",
+      "cautionText": "This site is owned by Wilshire Worldwide Co. Ltd., an entity authorized and licensed by the Philippine Amusement and Gaming Corporation (PAGCOR). Wilshire Worldwide Company Ltd. is authorized to use the {brand} trademark in Vietnam and Thailand",
+      "appDownload": "Apps",
+      "appDownloadLine2": "Download",
+      "wapQRCodeDesc": "Mobile Web",
+      "appQRCodeDesc": "Apps Download",
+      "affiliateCampaign": "Affiliate Campaign",
+      "affiliateCampaignLine2": "Commission plan",
+      "customerServiceHotline": "24-hours hotline",
+      "contactUs": "Contact us",
+      "contactNumber": "Hotline :400-120-8118",
+      "contactEmail": "Contact Email:cs@{brand}.com",
+
+      "copyright": "This website belongs to（PAGCOR）Philippine Amusement and Gaming Corporation Authorization and supervision",
+      "copyrightLine2": "{brand} Copyright© 2020 {brand} Casino Co.Group All Rights Reserved"
+    },
+    "login": {
+      "login": "Login",
+      "loginTitle": "SignIn",
+      "loginTitleLine2": "Best betting site in Asia",
+      "newRegister": "New Member",
+
+      "rememberMe": "Remember Me",
+      "forgetPass": "Forgot Password",
+      "cs": "If you have problems logging in, please do not hesitate ",
+      "contactus": "Contact Us",
+      "btn": "Login",
+      "footerDesc": "This website uses Global Trust's most advanced 128/256 bit SSL service",
+      "controlTitle": "Responsible Gaming",
+      "controlDesc": "You already set up for self control, account at",
+      "controlText": "will beunlock",
+      "errorMsg": {
+        "emptyUsername": "Username Cannot be Empty",
+        "emptyPassword": "Password Cannot be Empty"
+      }
+    },
+    "register": {
+      "registerTitle": "Register",
+      "registerTitleLine2": "Best betting site in Asia",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "withdrawalPassword": "Withdrawal Password",
+      "confirmWithdrawalPassword": "Confirm Withdrawal Password",
+      "promoteCode": "Promote Code",
+      "contract": "I confirm that I am at least 18 years old and have read and accepted the policy, privacy statement, terms and conditions of this website.",
+      "btn": "Register Now"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "oldPassword": "Old Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "resetSuccess": "Password reset successfully"
+    },
+
+    "account": {
+      "fund": "Fund",
+      "personal": "Personal Info",
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "transfer": "Transfer",
+      "report": "Report",
+      "profile": "Profile",
+      "inbox": "inbox",
+      "affiliate": "Affiliate",
+      "header": {
+        "lastLogin": "Last Login",
+        "total": "Balance",
+        "mainWallet": "Main Wallet",
+        "allGameWallet": "Transfer Wallet"
+      },
+      "msgCenterAcc": {
+        "inbox": "Mailbox",
+        "noMsg": "No Message",
+        "errorMsg": "Havent choose any message yet",
+        "tickAll": "All",
+        "delete": "Delete",
+        "markAsRead": "Mark as Read"
+      }
+    },
+
+    "download": {
+      "titleDesc": "",
+      "supportPlatform": "(Android/iOS)",
+      "pcDownload": "Mobile Web",
+      "mobileDownload": "Android/iOS Download"
+    },
+
+    "maintenance": {
+      "title": "Sorry, system under maintenance",
+      "maintenance": "maintenance",
+      "maintenancePeriod": "Maintenance period：",
+      "desc": "For your better game experience, we have been working hard",
+      "descText": "If have any questions, please contact online customer service in time",
+      "btn": "Contact Us"
+    }
+  },
+  "PrimePay": "PrimePay",
+  "LeePay": "LeePay",
+  "ApplePay": "ApplePay",
+  "Manual": "Manual",
+  "Crypto": "Crypto",
+  "BankTransfer": "Bank Transfer",
+  "CustomBank": "Custom Bank",
+  "VR": {
+    "lottery": "VR",
+    "desc": "VR Lottery has always been in the leading position in the industry with \"fairness, safety, fast and accuracy\", and has an all-round system of artificial intelligence. We have all kinds of mainstream lottery here, mainly divided into \"VR Live streaming lottery\" and \"VR lottery\". We are also developing the \"VR Electronic\" series of games, determined to give customers more diversified choices.    VR will continue to create and progress, in order to introduce more new kind lottery for the public, and create an all-round entertainment environment."
+  },
+  "KY": {
+    "chess": "KaiYuan",
+    "desc": "No 1 card game. Bull bull,blackjack,poker,dragon tiger and other real playercard game",
+    "BankerNiuNiu": "Niu-Niu",
+    "GoldenFlower": "Gloden Flower",
+    "The21Point": "The 21 Point",
+    "SanGong": "San-Gong",
+    "fish": "KY"
+  },
+  "sports": {
+    "desc": "Pega Gaming provide innovative, variety of bet type and competitive odds for live matches.  Easy betting with quick, and secure way through any kind of devices anywhere, anytime!  In addition, we support all kinds of sport events, including soccer, basketball, baseball, tennis, football, and E-sports to fulfill your needs!"
+  },
+  "esports": {
+    "desc": "IM E-Sports is an industry-leading betting platform designed by gamers for gamers. Ready to be stunned by the aesthetically pleasing visual interface, endless betting options, and the ultimate betting experience.Visit 【PG】 Gaming, a proud partner of IM E-Sports, and stay up to date on your favorite games and teams!"
+  },
+  "services": {
+    "depositTitle": "Easy, Rapid Payouts",
+    "deposit": "We strive to have the fastest, easiest and most secure payouts in the industry, all of them are 100% secure and reliable. Through various deposit and withdrawal options, we  promise to make your playing experience enjoyable and easy.",
+    "securityTitle": "Safety & Security",
+    "security": "As the most trusted online betting platform in Asia, we are committed to providing the best gaming experience in every aspect. We use an 128-bit SSL to encrypt every private information you share with us.",
+    "oddsTitle": "500+ Top games",
+    "odds": "From exciting sports, to massive progressive jackpots, classic table games, live casino, lottery, and specialty games – we have it all! With 500+ games, our online casino offers hours of entertainment and exclusive rewards, prizes and bonuses just for you!",
+    "platformTitle": "Anywhere, any devices",
+    "platform": "No matter where you are, you can win your fortune and have fun at anytime, with any devices! We are available on apps for both Android and iOS devices, and also as a web-based platform. Take advantage of chances to win BIG with us today!"
+  },
+  "AG": {
+    "name": "Asia Gaming",
+    "live": "Asia Gaming"
+  },
+  "BG": {
+    "name": "Big Gaming",
+    "live": "Big Gaming",
+    "fish":"Big Gaming"
+  },
+  "SG": {
+    "name": "Sexy Gaming",
+    "live": "Sexy Gaming"
+  },
+  "SW": {
+    "live": "Skywind",
+    "slots": "Skywind",
+    "electron": "Skywind"
+  },
+  "SBO": {
+    "sports": "SBO"
+  },
+  "IMES": {
+    "sports": "IM"
+  },
+  "SABA": {
+    "sports": "SABA"
+  },
+  "HABA": {
+    "slots": "Habanero",
+    "electron": "Habanero",
+    "fish": "HABA"
+  },
+  "JDB": {
+    "slots": "JDB",
+    "fish": "JDB"
+  },
+  "PP": {
+    "slots": "Pragmatic Play",
+    "electron": "Pragmatic Play"
+  },
+  "EVO": {
+    "live": "Evolution",
+    "slots": "Evolution"
+  },
+  "AB": {
+    "live": "Allbet"
+  },
+  "RT": {
+    "slots": "RedTiger"
+  },
+  "NT": {
+    "slots": "Netent"
+  }
+}
