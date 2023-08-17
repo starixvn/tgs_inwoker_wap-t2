@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import { connect } from "react-redux";
-import { Router, Switch, Route, Redirect } from "react-router";
+import { Router, Switch, Route } from "react-router";
 import { AppHistory } from "../../history/History";
 import { withRouter } from "react-router-dom";
-
 import {
   SHOW_LOGIN,
   UPDATING_SCREEN_SIZE,
@@ -16,15 +15,8 @@ import { walletAction } from "../../api-services/actions/walletAction";
 import { accountAction } from "../../api-services/actions/accountAction";
 import { inboxAction } from "../../api-services/actions/inboxAction";
 import { GeneralService } from "../../api-services/services/GeneralService";
-
 import config from "../../config/config";
-
-// import NameVerification from "./Card/NameVerification";
-// import PassSetting from "./Card/PassSetting";
-
 import ErrorSwitcher from "../../utils/ErrorSwitcher";
-
-// import CustomerService from "./CustomerService/index";
 
 import { withStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Dialog";
@@ -317,7 +309,7 @@ const RouteMapping = [
     navigate: true,
     screenHeight: true,
   },
-  !config.features.NewTransferUI && {
+  {
     path: "/transfer",
     component: Transfer,
     alert: true,
@@ -490,7 +482,6 @@ class Wap extends Component {
       action: "",
     };
   }
-
   GetSupportUrl = (userid, name, question, email) => {
     if (config.features.LiveChatVendor.brand === "zendesk") {
       window.zE("webWidget", "open");
@@ -550,17 +541,7 @@ class Wap extends Component {
       this.updateScreenSize();
     });
 
-    // const response = await GeneralService.CheckIPRestrict();
-
-    // if (response.code === 50000) {
-    //   AppHistory.replace({
-    //     pathname: "/" + i18n.language + "/ip-restrict-mobile",
-    //     search: "?query=error",
-    //     state: { ip: response.data.ip },
-    //   });
-    //   this.setState({ ...this.state, isIpRestrict: true, loading: false });
-    // } else {
-    if (this.props.general.token == "") {
+    if (this.props.general.token === "") {
       this.props.getSiteToken();
     } else {
       this.props.getBrandLanguage();
@@ -576,11 +557,6 @@ class Wap extends Component {
       this.props.getAffiliateStatus();
     }
 
-    // this.props.getMobilePrefix();
-    //this.props.getMarquee();
-    // this.props.getBanner();
-    // this.props.getBankList();
-    //this.props.getHomePageGameList();
     let urlParams = new URLSearchParams(this.props.location.search);
     if (urlParams.has("goto")) {
       const gotoValue = urlParams.get("goto");
@@ -622,10 +598,6 @@ class Wap extends Component {
         localStorageToken
       );
       if (responseToken.IsSuccess) {
-        // document
-        //   .getElementById("ioBB")
-        //   .parentNode.removeChild(document.getElementById("ioBB"));
-        // this.props.checkGame();
         var bankInfoAuthentication = null;
         var isPhoneNull = null;
         var isEmailNull = null;
@@ -653,9 +625,7 @@ class Wap extends Component {
           }
           return;
         }
-        // const responseVIP = await this.props.getVIPInfo(
-        //   responseToken.data.token
-        // );
+
         this.props.getBalanceList();
         this.props.game.providerList
           .filter((item) => item.status === 0 && item.transferwallet === true)
@@ -672,31 +642,11 @@ class Wap extends Component {
         this.props.getDepositMethod();
         this.props.getWithdrawalChannel();
         this.props.getPromotionRouletteCount();
-        // this.props.getIDCardNo();
-        //this.props.getDepositChannel();
-
-        // this.props.getInviteLink();
       }
     }
     this.setState({ ...this.state, loading: false });
-    //}
+
     window.addEventListener("focus", this.onFocus);
-    // let GAScript = `<script  async  src="https://www.googletagmanager.com/gtag/js?id=UA-156359717-1"></script>
-    // <script>
-    //   window.dataLayer = window.dataLayer || [];
-    //   function gtag() {
-    //     dataLayer.push(arguments);
-    //   }
-    //   gtag("js", new Date());
-
-    //   gtag("config", "UA-156359717-1");
-    // </script>`;
-
-    // if (process.env.REACT_APP_CUSTOM_NODE_ENV != "development") {
-    //   var e = document.createElement("div");
-    //   e.innerHTML = GAScript;
-    //   document.body.appendChild(e);
-    // }
   }
 
   componentWillUnmount() {
@@ -738,7 +688,7 @@ class Wap extends Component {
     }
 
     if (preProps.general.token !== this.props.general.token) {
-      if (this.props.general.token == null || this.props.general.token == "") {
+      if (this.props.general.token == null || this.props.general.token === "") {
         this.props.getSiteToken();
       } else {
         localStorage.setItem("client-token", this.props.general.token);
@@ -787,17 +737,7 @@ class Wap extends Component {
           this.props.getGameBalance(a.abbreviation);
         });
     }
-    // will cause blacklist issue on when registering ref:TGS-823
-    // if (
-    //   preProps.account.token !== this.props.account.token &&
-    //   this.props.account.token !== null
-    // ) {
-    //   this.props.game.providerList
-    //     .filter((item) => item.status === 0 && item.transferwallet === true)
-    //     .map((a) => {
-    //       this.props.getGameBalance(a.abbreviation);
-    //     });
-    // }
+
     if (
       preProps.general.isMaintenance !== this.props.general.isMaintenance &&
       this.props.general.isMaintenance === true
@@ -1110,40 +1050,6 @@ class Wap extends Component {
               </>
             )}
 
-          <StyledModal onClose={this.handleClose} open={this.state.open}>
-            <DialoTitle>{this.state.title}</DialoTitle>
-            <DialoMessage>{this.state.message}</DialoMessage>
-            {(() => {
-              if (this.state.message === "无法连接，请检查您的网络") {
-                return (
-                  <ButtonConfirm onClick={() => window.location.reload()}>
-                    {i18n.t("common.reload")}
-                  </ButtonConfirm>
-                );
-              } else {
-                return (
-                  <div>
-                    <ButtonConfirm
-                      onClick={() =>
-                        this.setState({ ...this.state, open: false })
-                      }
-                    >
-                      {i18n.t("common.confirm")}
-                    </ButtonConfirm>
-                    {this.state.action && (
-                      <div
-                        onClick={() =>
-                          this.setState({ ...this.state, open: false })
-                        }
-                      >
-                        {this.state.action}
-                      </div>
-                    )}
-                  </div>
-                );
-              }
-            })()}
-          </StyledModal>
           <StyledModalPopup
             onClose={this.handleClosePopup}
             open={this.state.openPopup}
@@ -1198,12 +1104,8 @@ const mapDispatchToProps = (dispatch) => {
     getAnnouncement: (language) => dispatch(uiAction.getAnnouncement(language)),
     getBankCardList: () => dispatch(walletAction.getBankCardList()),
     getBrand: () => dispatch(generalAction.getBrand()),
-    // getBanner: () => dispatch(uiAction.getBanner()),
-    // getBankList: () => dispatch(walletAction.getBankList()),
-    // getDepositChannel: () => dispatch(walletAction.getDepositChannel()),
     getBalanceList: (token) => dispatch(walletAction.getBalanceList()),
     getGameBalance: (gpcode) => dispatch(walletAction.getGameBalance(gpcode)),
-    // getIDCardNo: () => dispatch(accountAction.getIDCardNo()),
     getHomePageGameList: () => dispatch(gameAction.getHomePageGameList()),
     getSiteToken: () => dispatch(generalAction.getSiteToken()),
     getMessageList: (language, pages, limit) =>
@@ -1217,7 +1119,6 @@ const mapDispatchToProps = (dispatch) => {
     },
     getLiveChatURL: () => dispatch(generalAction.getLiveChatURL()),
     getAutoTransferStatus: () => dispatch(walletAction.getAutoTransferStatus()),
-    //TODO: Revert the 4th param to true after testing.
     getPromotionList: (language) =>
       dispatch(
         generalAction.getPromotionList(language, 1, 99, false, "", true)

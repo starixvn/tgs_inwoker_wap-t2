@@ -1,34 +1,25 @@
 import "react-app-polyfill/ie11";
 import "react-app-polyfill/stable";
-
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { Router, Route, Switch, Redirect } from "react-router-dom";
 
-import Web from "./components/App/index";
 import Wap from "./components/Wap/index";
 import * as serviceWorker from "./utils/serviceWorker";
 import { isMobileOnly } from "react-device-detect";
 import { Provider } from "react-redux";
-//import store from "./store/index";
 import { createStore, applyMiddleware } from "redux";
-
 import thunk from "redux-thunk";
 import InterceptorService from "./api-services/services/InterceptorService";
 import JoinGame from "./components/Share/JoinGame";
-
 import JoinLobbyGame from "./components/Share/JoinLobbyGame";
-// import IPRestrict from "./components/App/IPRestrict";
-// import CS from "./components/App/CS";
-// import AboutUs from "./components/AboutUs/index";
-// import GameRules from "./components/GameRules/index";
 import { AppHistory } from "./history/History";
 import { SnackbarProvider } from "notistack";
 import styled from "styled-components";
 import Config from "./config/config";
 import {
-  createMuiTheme,
+  createTheme,
   MuiThemeProvider,
   StylesProvider,
 } from "@material-ui/core/styles";
@@ -39,7 +30,6 @@ import { makeStyles } from "@material-ui/core";
 import i18n from "./utils/i18n";
 import rootReducer from "./api-services/reducers/rootReducer";
 import JoinLotteryGame from "./components/Share/JoinLotteryGame";
-import Common from "./utils/Common";
 import { ThemeProvider } from "styled-components";
 import { themeList } from "./theme";
 import { GlobalStyles } from "./global";
@@ -95,7 +85,7 @@ if (i18n.language === "zh-CN") {
 document.getElementById("root").style.fontFamily = fontFamily;
 
 const muiThemeMode = themeList[Config.theme] || themeList["default"];
-const muiTheme = createMuiTheme({
+const muiTheme = createTheme({
   palette: {
     primary: {
       main: muiThemeMode.primary,
@@ -172,11 +162,6 @@ const muiTheme = createMuiTheme({
 const AppWrapper = () => {
   const classes = useStyles();
 
-  const languageDetector =
-    i18n.language ||
-    localStorage.getItem("i18nextLng") ||
-    config.defaultLanguage;
-
   const [isReady, setIsReady] = React.useState(false);
   useEffect(() => {
     i18n.on("languageChanged", (lng) => {
@@ -196,7 +181,9 @@ const AppWrapper = () => {
   }, []);
 
   useEffect(() => {
-    var languages = "zh-CN|zh-TW|en-US|id-ID|th-TH|vi-VN|hi-IN|ta-IN".split("|");
+    var languages = "zh-CN|zh-TW|en-US|id-ID|th-TH|vi-VN|hi-IN|ta-IN".split(
+      "|"
+    );
     var pathname = window.location.pathname;
     var isfoundLanguage = "";
     for (var i = 0; i < languages.length; i++) {
@@ -205,7 +192,7 @@ const AppWrapper = () => {
         break;
       }
     }
-    if (isfoundLanguage != "") {
+    if (isfoundLanguage !== "") {
       pathname = pathname.replace("/" + isfoundLanguage, "/");
       pathname = pathname.replace("//", "/");
       window.location.href = pathname + window.location.search;
@@ -281,7 +268,9 @@ const AppWrapper = () => {
                     })()}
                     <Route
                       path={"/"}
-                      render={(props) => (isMobileOnly ? <Wap /> : <Web />)}
+                      render={(props) => {
+                        return <Wap />;
+                      }}
                     />
                     <Redirect to={`/`} />
                   </Switch>

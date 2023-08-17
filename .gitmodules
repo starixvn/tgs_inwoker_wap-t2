@@ -4,5 +4,5 @@
 	branch = develop
 [submodule "src/api-services"]
 	path = src/api-services
-	url = https://gitlab+deploy-token-740261:hwGYjga3k4-sZLLa2XA1@gitlab.com/inwoker/tgs/tgs-services-api.git
+	url = https://gitlab+deploy-token-740261:hwGYjga3k4-sZLLa2XA1@gitlab.com/inwoker/tgs/tgs-services-api
 	branch = master
